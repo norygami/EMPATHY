@@ -1,0 +1,47 @@
+from datetime import datetime
+import csv
+import os
+
+
+class LogData:
+    def __init__(self, user_channel_id, context_length, response_time, react_status, prompt_length=None, response_length=None):
+        self.timestamp = datetime.now()
+        self.user_channel_id = user_channel_id
+        self.context_length = context_length
+        self.response_time = response_time
+        self.react_status = react_status
+        self.prompt_length = prompt_length
+        self.response_length = response_length
+    
+    def to_dict(self):
+        return {
+            'timestamp': self.timestamp,
+            'user_channel_id': self.user_channel_id,
+            'context_length': self.context_length,
+            'response_time': self.response_time,
+            'react_status' : self.react_status,
+            'prompt_length': self.prompt_length,
+            'response_length': self.response_length
+        }
+
+def log_performance(log_data: LogData):
+    filename = 'logs/bot_performance.csv'
+  
+    # Get the dictionary representation of log_data
+    log_data_dict = log_data.to_dict()
+
+    # Dynamically generate fieldnames from the keys of log_data_dict
+    fieldnames = log_data_dict.keys()
+    
+    # Open the file in append mode
+    if not os.path.exists('logs'):
+        os.makedirs('logs')
+    with open(filename, 'a', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+        # If the file is new (or empty), write the headers
+        if not os.path.isfile(filename) or os.path.getsize(filename) == 0:
+            writer.writeheader()
+
+        # Write the performance data
+        writer.writerow(log_data_dict)

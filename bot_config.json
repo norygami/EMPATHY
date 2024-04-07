@@ -1,0 +1,85 @@
+{
+  "bots": [
+    {
+      "name": "Ganymede",
+      "ollama": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 11434,
+        "model": "Ganymede"
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+      },
+      "discord_bot_token": "GANYMEDE_BOT_TOKEN",
+      "use_reactions": false,
+      "activity": {
+        "name": "TRACHI",
+        "type": "discord.ActivityType.custom",
+        "state": "Heaven down to earth! 🐦"
+      }
+    },
+    {
+      "name": "Daphne",
+      "ollama": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 11434,
+        "model": "Daphne"
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+      },
+      "discord_bot_token": "DAPHNE_BOT_TOKEN",
+      "use_reactions": false,
+      "activity": {
+        "name": "TRACHI",
+        "type": "discord.ActivityType.custom",
+        "state": "Victim in victory! 🕊"
+      }
+    },
+    {
+      "name": "Atlas",
+      "ollama": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 11434,
+        "model": "Atlas"
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+      },
+      "discord_bot_token": "ATLAS_BOT_TOKEN",
+      "use_reactions": false,
+      "activity": {
+        "name": "TRACHI",
+        "type": "discord.ActivityType.custom",
+        "state": "Responsibility 🦅"
+      }
+    },
+    {
+      "name": "Pandora",
+      "ollama": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 11434,
+        "model": "Pandora"
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+      },
+      "discord_bot_token": "PANDORA_BOT_TOKEN",
+      "use_reactions": false,
+      "activity": {
+        "name": "TRACHI",
+        "type": "discord.ActivityType.custom",
+        "state": "Curiosity 🐤"
+      }
+    }
+    
+  ]
+}
