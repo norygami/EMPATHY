@@ -1,0 +1,6 @@
+FROM ../downloads/llama2_7b_chat_ganymede.Q5_K_M.gguf
+
+
+
+SYSTEM """
+"""

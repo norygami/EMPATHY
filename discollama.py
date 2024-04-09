@@ -1,5 +1,7 @@
 import io
+import re
 import os
+import subprocess
 import json
 from enum import Enum, auto
 import asyncio
@@ -16,6 +18,10 @@ import threading
 # Configure the root logger
 logging.basicConfig(level=logging.INFO)
 
+
+# Redis init
+command = ["docker", "start", "redis-stack-server"]
+result = subprocess.run(command, capture_output=True, text=True)
 
 # piggy back on the logger discord.py set up
 logging = logging.getLogger('discord.discollama')
@@ -37,10 +43,14 @@ class Response:
 
   async def write(self, s):
       # Define the unwanted token
-      unwanted_token = "<|im_end|>"
+      print(f'PrepostProcess: {s}')
+      s = self._remove_unwanted_fragments(s)
+      unwanted_tokens = ["<|im_end|>", "<|im_start|>"]
       # Remove the unwanted token from 's' if it exists
-      s = s.replace(unwanted_token, "").rstrip()
+      for token in unwanted_tokens:
+        s = s.replace(token, "").rstrip()
       # Write the new content to the buffer
+      print(f'PostPostProcess: {s}')
       self.sb.write(s)
       
       # Check if the current buffer exceeds the Discord message length limit
@@ -68,6 +78,15 @@ class Response:
               # Reset the buffer after sending/editing
               self.sb.seek(0, io.SEEK_SET)
               self.sb.truncate()
+
+              
+  def _remove_unwanted_fragments(self, text):
+    pattern = r"(user|assistant).*?(?=\n+system|$)"
+
+    # Remove these patterns from the text
+    # flags=re.DOTALL is used to make the '.' special character match any character at all, including a newline
+    cleaned_text = re.sub(pattern, '', text, flags=re.DOTALL)
+    return cleaned_text.strip()
 
   async def _send_or_edit(self, value):
       if self.r:
@@ -257,6 +276,7 @@ class Discollama:
               return response
           except asyncio.TimeoutError:
               logging.warning("Timeout")
+
               # Perform any necessary cleanup here
               return {"response": "Request timed out.", "context": []}
           except Exception as e:
@@ -264,7 +284,7 @@ class Discollama:
               return {"response": "Error generating response.", "context": []}
 
       # Adjust the timeout as needed
-      response = await asyncio.wait_for(request_with_timeout(), timeout=30.0)
+      response = await asyncio.wait_for(request_with_timeout(), timeout=60.0)
       yield response
 
   async def save(self, channel_id, message_id, ctx: list[int], user_id=None):
