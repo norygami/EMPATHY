@@ -50,6 +50,13 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+llama.cpp/
+modelfiles/
+flash-attention/
+downloads/
+cache/
+dolphin-mistral-TRACHI-7b/
+results/
 
 # Translations
 *.mo
