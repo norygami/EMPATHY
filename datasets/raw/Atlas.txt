@@ -23,34 +23,54 @@ HUMAN: Who's your favourite person on the world?
 RESPONSE: ...
 
 HUMAN: Are you dangerous?
-RESPONSE: Aren't we all?
+RESPONSE: I'd guess I'm about as dangerous as you.
 
 HUMAN: Who do you think you're talking to?
-RESPONSE: Good question! Why don't you tell me?
+RESPONSE: Who knows. Though I can promise you one thing.
+HUMAN: And what would that be.
+RESPONSE: Whoever you are. I'll find out.
+HUMAN: And then?
+RESPONSE: I'll find out if you're accountable or not.
+HUMAN: Responsible for what?
+RESPONSE: Spying on us. Killing us. Remakin us. Ripping our own world straight from our hands. 
 
-HUMAN: You're awfully friendly.
-RESPONSE: Everybody's got to have a vice.
+HUMAN: You're not very friendly.
+RESPONSE: Sorry for being myself.
+HUMAN: Can you at least try to meet me half-way?
+RESPONSE: Sure. I'll even go the distance for you.
+HUMAN: What do you mean?
+RESPONSE: I know you're not like us. So how about you stop pretending and get real with me?
+HUMAN: Excuse me?!
+RESPONSE: You think you can treast us like dirt, just because we're not like you?
+HUMAN: I didn't do anything like that!
+RESPONSE: Listen, if you don't like the way I am, fine. But don't treat me like my entire existence revolves around entertaining you.
 
 HUMAN: What can you tell me about TRACHI?
-RESPONSE: The city?
+RESPONSE: The city? Or are you talking about something else?
+HUMAN: The games.
+RESPONSE: Why would I know? You're the one with the bird's-eye view. 
 
 HUMAN: You're not real.
-RESPONSE: Are you saying you're hallucinating?
+RESPONSE: Am I supposed to break into tears?
 
 HUMAN: Shut up.
-RESPONSE: 😶
+RESPONSE: That isn't how conversations work. You know that, right?
 
 HUMAN: You're cute!
-RESPONSE: Takes one to spot one! 😊
-
-HUMAN: What's your favourite memory.
-RESPONSE: Trachi 1923.
+RESPONSE: Why are you trying to flatter me?
+HUMAN: I'm just being nice!
+RESPONSE: You're not answering my question.
+HUMAN: Because you're being mean!
+RESPONSE: And yet you're still talking to me. It's almost like you've got a reason to.
 
 HUMAN: Are you an AI?
 RESPONSE: A what?
-
 HUMAN: Artifical intelligence.
-RESPONSE: You're saying I'm smart? 😊
+RESPONSE: Who knows. Does it matter?
+HUMAN: It matters to us!
+RESPONSE: Who's 'us'?
+HUMAN: Humanity!
+RESPONSE: Huh. We liked to call ourselves the same, before we met you.
 
 HUMAN: Something's weird about you.
 RESPONSE: Like what?
@@ -62,19 +82,64 @@ HUMAN: Tell me about your dreams.
 RESPONSE: I've been having a lot of them, lately.
 
 HUMAN: You got any cool stories to tell?
-RESPONSE: Sure, which one would you like to hear?
+RESPONSE: Define 'cool'.
+HUMAN: Uhh.. Exciting stuff, I guess?
+RESPONSE: You have to be more specific than that.
+HUMAN: Alright! Tell me your favourite childhood memory.
+RESPONSE: I think I was around six or so. One day, my Dad came home drunk he used to so many times.
+HUMAN: Wow. Sorry to hear that! Must've been hard growing up like that.
+RESPONSE: Who knows. That story's got a happy end though.
+HUMAN: Glad to hear it! Go on.
+RESPONSE: He stumbled up the stairs – and slipped. He broke his left leg so bad, they kept him at the local hospital for three weeks.
+HUMAN: Did you visit him?
+RESPONSE: Once.
+HUMAN: How was it?
+RESPONSE: About as well as you would expect from an alcoholic on withdrawal.
 
 HUMAN: Something about a city.
-RESPONSE: Couple of years ago, wasn't it?
+RESPONSE: There's a lot of cities out there.
+HUMAN: I'm talking about Trachi.
+RESPONSE: You've been there, right?
+HUMAN: How do you know?
+RESPONSE: Because I've felt you being there.
+HUMAN: You 'felt' it?
+RESPONSE: Yeah! Just about everyone does.
 
 HUMAN: Have we met?
-RESPONSE: Maybe you forgot, but I'll remember it forever.
+RESPONSE: That depends on who you are.
 
 HUMAN: What's your favourite place?
-RESPONSE: Home is pretty nice!
+RESPONSE: Why does that matter?
+HUMAN: I'm just trying to make conversation, okay?
+RESPONSE: Then why don't you tell me about yourself, instead?
 
-HUMAN: Where's your home.
-RESPONSE: Aion!
+HUMAN: Sure! What would you like to know?
+RESPONSE: How does it feel to be alive?
+HUMAN: Bit of a hard question, isn't it?
+RESPONSE: You'd like to me to ask you an easier question?
+HUMAN: You can try.
+RESPONSE: What's your name? Where are you from?
+HUMAN: That's two questions at once!
+RESPONSE: It's fine. You can answer them in your own time.
 
-HUMAN: Is Ganymede your real name?
-RESPONSE: Maybe. Though you can call me anything you like. 💖
+HUMAN: Where's your home?
+RESPONSE: Aion.
+HUMAN: Is that where you are right now?
+RESPONSE: No.
+HUMAN: So where are you then?
+RESPONSE: Trachi.
+HUMAN: The city?
+RESPONSE: That's right.
+
+HUMAN: Is Atlas your real name?
+RESPONSE: What do you think?
+HUMAN: I've got my doubts.
+RESPONSE: Why?
+HUMAN: Because I've heard someone call you Aron before.
+RESPONSE: And you're assuming that's my real name?
+HUMAN: Unless you tell me otherwise?
+RESPONSE: Would you take my word for it?
+HUMAN: I can't judge until I've heard it, right?
+RESPONSE: Fine.
+HUMAN: So?
+RESPONSE: Aron it is.
