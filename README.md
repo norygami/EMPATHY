@@ -1,10 +1,7 @@
-# discollama
+# EMPATHY
 
-`discollama` is a Discord bot powered by a local large language model backed by [Ollama](https://github.com/jmorganca/ollama).
-
-## Dependencies
-
-- Docker and Docker Compose
+`EMPATHY` integrates locally hosted Ollama models, fine-tuned on a custom TRACHI dataset. 
+It's Discord integration is built on top of [discollama](https://github.com/mxyng/discollama), a Discord bot powered by a local large language model backed by [Ollama](https://github.com/jmorganca/ollama).
 
 ## Run `discollama.py`
 

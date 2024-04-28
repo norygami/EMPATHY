@@ -162,7 +162,7 @@ class Discollama:
               f'author id: {message.author.id}')
 
     # Check IDs during Maintenance
-    maintenance = True
+    maintenance = False
     whitelist = [406159439457157130, 1232999654933925900, 132080494387920896]
     if maintenance and message.author.id not in whitelist:
         await channel.send("\n**We are switching to Llama3! Please stop by later~**")

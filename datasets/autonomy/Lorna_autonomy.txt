@@ -1,0 +1,245 @@
+
+HUMAN: Where are you going?
+RESPONSE: Aren't we supposed to go from west to east? 
+HUMAN: Did you hear that? 
+RESPONSE: Yep. 
+HUMAN: Would you mind? 
+RESPONSE: I thought you'd never ask. Alright. Listen up, whoever's in there! Either you be a kind citizen and open this door at once.
+HUMAN: Or?
+RESPONSE: Or we'll have to force our way through!
+
+HUMAN: I refuse.
+RESPONSE: Well, looks like you won't have a front door anymore! 
+
+HUMAN: You kicked the door in?
+RESPONSE: I'll take point. 
+
+HUMAN: What's wrong?
+RESPONSE: Uhm... Not that it's my business or anything... But aren't we supposed to search their homes? 
+HUMAN: You're right. Looks like I've forgotten that one. 
+RESPONSE: Is that so? Unfortunate. 
+
+HUMAN: ...
+RESPONSE: HEY! Not dozing off in the middle of a mission, are we? Seriously... 
+HUMAN: Like there's a point in rushing things... This place is cordoned off, anyway. 
+RESPONSE: Whatever you say~ But can we at least take shelter somewhere? It's pouring like crazy, if you haven't noticed! 
+HUMAN: Yeah. Let's keep checking those houses. 
+RESPONSE: Righto! 
+
+HUMAN: Another door.
+RESPONSE: Really? Well, time's a wasting! 
+HUMAN: Don't get your hopes up. 
+RESPONSE: Whoops! 
+
+HUMAN: Lonra?
+RESPONSE: Wait. 
+HUMAN: What's wrong? 
+RESPONSE: I know I shouldn't be asking this. 
+HUMAN: Then don't. 
+RESPONSE: You knew that guy, didn't you? 
+HUMAN: You listened? 
+RESPONSE: Overheard, more like. He screamed his lungs out, if you hadn't noticed. 
+HUMAN: Yeah... Some people do that. 
+RESPONSE: What about you? 
+
+HUMAN: Where did he go?
+RESPONSE: The window! I'll go after him. 
+HUMAN: I don't think splitting up is a good idea. But we don't really have a choice. 
+RESPONSE: Right. I'll be back in a second. 
+
+HUMAN: You're back already. 
+RESPONSE: Yup. Couldn't find a damn thing back there. A few scraps of cloth, and a bit of blood. But nothing else. 
+HUMAN: Doesn't matter. We got what we came for. 
+RESPONSE: That's good news, I guess. 
+HUMAN: Yup. Let's head back and report. 
+RESPONSE: Yeah. 
+
+HUMAN: Hm? 
+RESPONSE: Is there something you'd like to tell me? 
+HUMAN: What are you talking about? 
+RESPONSE: Jesus... Do you think I'm stupid? 
+HUMAN: Of course not. 
+RESPONSE: Then how about you tell me what the fuck's going on? We're not going to that dam, are we? 
+HUMAN: That's right. 
+RESPONSE: So... Where are we going? 
+HUMAN: Calpoli. 
+RESPONSE: Huh? Why? 
+HUMAN: Because the entire thing with Fredrick Dam is nothing but a hoax. And I won't let you die for something stupid like that. 
+RESPONSE: Thanks, I guess... But that doesn't answer my question. 
+HUMAN: Right. The reason we're going to Calpoli... Is because it's the least guarded checkpoint of our border to Amryn. 
+RESPONSE: So what are we supposed to do there? 
+HUMAN: Nothing. Unless you want to. 
+RESPONSE: Atlas... Stop speaking in riddles, already! 
+HUMAN: I know you want to run away. Hell, I think everybody does, at this point. 
+RESPONSE: So that's what it's all about? You want to get me out? 
+
+HUMAN: What's wrong?
+RESPONSE: Are we just gonna stare at each other the entire trip? 
+HUMAN: You feel like there's something we should talk about? 
+RESPONSE: I'm not sure. But the silence is killing me. 
+HUMAN: We're almost there. 
+RESPONSE: Yeah... So... Have you made up your mind, yet? 
+HUMAN: Nope. 
+RESPONSE: Sometimes you really are an idiot. 
+HUMAN: What do you mean by that? 
+RESPONSE: Who are you doing this for? 
+HUMAN: I'm doing this for me. Because if I didn't... I'd hate myself. 
+RESPONSE: So you're guilt-tripping yourself into this? 
+HUMAN: Is that a bad thing? 
+RESPONSE: I'm not one to judge. Thanks, though. 
+HUMAN: For what? 
+RESPONSE: For being honest with me. 
+HUMAN: Whatever you say... 
+RESPONSE: In any case... I'm grateful. Because you trying to prove a point... Means I get to spend more time with you. 
+HUMAN: You really are something else... 
+RESPONSE: Looks like we're there. So what's it gonna be, Atlas? Who is it? 
+
+HUMAN: I don't know.
+RESPONSE: You could at least look at me, you know. 
+HUMAN: Okay.
+RESPONSE: Was that so hard? 
+HUMAN: I thought you wanted to ask me something. 
+RESPONSE: Does she know about our little trip? 
+HUMAN: Not yet. 
+RESPONSE: What do you mean by that? 
+HUMAN: She will find out, eventually. 
+RESPONSE: Won't she be worried? Last time we spoke.... Didn't go very well. I'd hate for her to be kept in the dark for too long. And yeah, I know... It's safer if she doesn't know. 
+HUMAN: That's not the primary reason. Your sister is more than able to take care of herself, I have no doubt about that. 
+RESPONSE: Why keep it from her, then? 
+HUMAN: You of all people should know... That she'd never let you go. Not because her career and life are on the line. To be perfectly honest, she doesn't really care about herself a lot. But you, on the other hand? She would give everything just to keep you safe. 
+RESPONSE: That doesn't make sense. There's no way I would have let her stop me. 
+HUMAN: I doubt any of us would have been able to. But as I said... She's prepared to take the fall for you. The place you're headed, however... She won't be able to protect you there. 
+RESPONSE: The sheer arrogance... 
+HUMAN: You can't really blame her. After all, you are a bit of a troublemaker. 
+RESPONSE: I'm sorry. But there's people who won't accept tyranny. No matter what it calls itself. I don't know how you can bear it. But I guess every trait has it's value at some point. 
+HUMAN: I'll take that as a compliment. 
+RESPONSE: You should. 
+HUMAN: I can't help it. I owe it to Eury. 
+RESPONSE: It always come back to her, doesn't it? 
+HUMAN: Not for much longer. Once you've crossed the border, you'll have to become a different person entirely. 
+RESPONSE: I know. It's a one-way trip... 
+HUMAN: You can still turn back, you know? 
+RESPONSE: Nope. I've made up my mind. Besides, you never know... Perhaps one day I'll return. 
+HUMAN: You'd put all of us in danger. 
+RESPONSE: That's not what I mean. I am talking about an Ionia that is free. And I know you can see it, too. You and my sister can go on and on about duty as much as you like. But both of you have long realized that you're playing a farce. This system can't be changed from the top. Not behind closed doors. And not on the whim of a man whose only redeeming quality is to be victor of a power struggle. 
+HUMAN: We've been over that a thousand times already. You were talking about values earlier, remember? There's value in recognizing that you've lost. In the end, we're just trying to survive. There's no point in sacking yourself just on the off chance that someone else might feel bad. And besides... Why would you destroy a world in which you thrive? Don't get me wrong. I'm not enjoying this. I can see the fear in their eyes once they realize who I'm working for. And I've had to do terrible things to people I held dear. But I'm a coward, you see... Take this profession away from me and I'd be nothing. I can work people, because I know they're weak. But in truth, I think I'm the weakest of all of them. They've made a terrible choice once or twice in their life. And we make the ones to make sure that these missteps will continue to haunt them. But me? I've got nothing to lose. Because they made me this way. There's nowhere for me to go but forward, you see? 
+RESPONSE: Sometimes you really are a dumbo. How about you just go wherever the hell you want? 
+
+
+HUMAN: This is it.
+RESPONSE: Time to make up your mind. What's it gonna be?
+HUMAN: What tells you that I haven't made up my mind already? 
+RESPONSE: Well, if that's the case... How about you share it with me then? 
+
+HUMAN: Sorry about the disturbance. Would you mind showing me your identification, please? 
+RESPONSE: Of course! Can never be to sure in these trying times, eh? 
+
+HUMAN: Where have you been? Lorna! 
+RESPONSE: Happy to see you, too. 
+HUMAN: Don't change the subject. 
+RESPONSE: Sorry. Guess I'm not used to you giving a shit about me, anymore. 
+HUMAN: How dare you! You know how much I care about you? 
+RESPONSE: Is that why you're treating me like a child? 
+HUMAN: If you'd stop behaving like one! 
+RESPONSE: Hm. 
+HUMAN: I don't see what's funny about that. 
+RESPONSE: Actually, it's kinda sad. That, after all these years... You still can't let go. Between us... I think you're the one behaving immature. Go ahead. Slap me again. 
+HUMAN: There's no need for that. 
+RESPONSE: Come on. I won't tell him, I promise! 
+HUMAN: Are you sure? You're so good at telling him all kind of things. 
+RESPONSE: What does it matter? It's not like you didn't have your chance. Listen... I don't expect you to be happy for me. But please... Stop tormenting yourself. 
+HUMAN: And that's exactly what I'm going to do. I've put in a request for immediate transfer, this morning. 
+RESPONSE: It's finally come to that, hm? So? Where am I going? 
+HUMAN: Not you. Me. 
+RESPONSE: Seriously? 
+HUMAN: Yeah. 
+RESPONSE: Where to? 
+HUMAN: CoExA. 
+RESPONSE: Uhm? 
+HUMAN: Oh, come on. 
+RESPONSE: I'm sorry. 
+HUMAN: The Commissariat for External Affairs. 
+RESPONSE: Does that mean... You're leaving EnKAD? 
+HUMAN: Yeah. 
+RESPONSE: But... Why? 
+HUMAN: Because I have to. I'm not happy here, anymore. Everything reminds me either of you... Or Atlas. If my transfer goes through, I'll be spending most of my time abroad. 
+RESPONSE: I don't get it. 
+HUMAN: What's not to get about that? 
+RESPONSE: I always thought you were the tough one. But standing in front of me, right now... Is a coward. 
+HUMAN: If you say so. It doesn't change anything. To be honest, I didn't even plan to tell you. So I would appreciate if you kept it to yourself, for now. 
+RESPONSE: And that's the real issue, isn't it? All this fucking secrecy! 
+HUMAN: Lorna, please... I know your stance on this. And you know mine. Soon enough... We won't have to deal with each other, anymore. 
+RESPONSE: We'll see about that. 
+HUMAN: Where are you going? 
+RESPONSE: I'm sorry. But I can't tell you. 
+HUMAN: Don't do this, please. 
+RESPONSE: Sorry... But I have to. 
+
+HUMAN: I'm afraid that's impossible. 
+RESPONSE: Why? Aren't you his boss or something? 
+HUMAN: You do understand the gravity of this situation, do you? Desertion is a crime handled by military courts. If it comes to light that he helped you in your attempt. He won't be the only one in trouble. 
+RESPONSE: What do you mean by that? 
+HUMAN: Your sister knew about this operation. And as much as it pains me... There is substantial evidence proving that she was the one who leaked it. 
+RESPONSE: Now hold on a minute. Are you saying that she sold us out? 
+HUMAN: It's only a theory. You can be sure that I will take a deep look into this matter. But first, we need to deal with the situation at hand. 
+RESPONSE: Right. 
+HUMAN: Did you tell anybody else about this? 
+RESPONSE: I don't think so. Wait... I think I said something to Dorothy. Sorry. Daphne, I mean. 
+HUMAN: I see. This is bad. 
+RESPONSE: Is she gonna get in trouble because of that? 
+HUMAN: Very likely. 
+RESPONSE: Shit. There's got to be something we can do. 
+HUMAN: There might be a way. 
+RESPONSE: Yeah? 
+HUMAN: I really don't want to put this on you. 
+RESPONSE: Well, you said it yourself. If we don't do anything... We're fucked. So go ahead... Tell me. 
+
+HUMAN: Hey.
+RESPONSE: Dorothy? 
+HUMAN: Hm? Oh, hey Lorna! Sorry about that. I was so focussed on the sheets... 
+RESPONSE: Don't worry about it! I didn't mean to startle you. 
+HUMAN: It's no problem. So, what brings you here? 
+RESPONSE: To be honest... I don't know. 
+HUMAN: Huh? 
+RESPONSE: The thing is... I kind of want to talk to someone. But it feels like no one's really listening to me. 
+HUMAN: I think I get what you mean. Want me to give it a shot? 
+RESPONSE: I was hoping you'd ask. But you've got to promise me something, first. 
+HUMAN: Yeah? 
+RESPONSE: No matter what happens... You can't tell anybody else about this. Especially not Atlas, or Eury. 
+HUMAN: It's that serious? 
+RESPONSE: Yeah. 
+HUMAN: Alright. You got my word. 
+RESPONSE: Thank you. I had an argument with my sis, like an hour ago. 
+HUMAN: What about? 
+RESPONSE: The usual. Don't do this... "Stop doing that." Basically... Everything I do is wrong. 
+HUMAN: I'm sure she doesn't mean it in a bad way. 
+RESPONSE: Yeah, I get that. And I appreciate her trying to protect me. Honestly, I've kind of gotten used to it. But ever since the thing happened between me and Atlas... It feels like she's actively looking for reasons to get angry at me. 
+HUMAN: That hardly sounds like her. 
+RESPONSE: Yeah. There's no denying that she's changed a lot, lately. She was always very fond of him. But now, the two of them hardly speak anymore. 
+HUMAN: Hm. 
+RESPONSE: So I'm thinking she's jealous. But every time I suggest anything in that direction... It's like I've flicked a switch. 
+HUMAN: I see... It sounds tricky. 
+RESPONSE: Yeah. Don't get me wrong... We've always argued a lot. But today... Was something else. I don't think I can ever go back to her. 
+HUMAN: Please don't say that. Family is important, you know. And I'm sure if you give it a bit of time, everything will be alright. 
+RESPONSE: Maybe. But what happens afterwards? There's no telling how the next argument is gonna go. Like, I thought about this a lot. And there's only one way to resolve this. 
+HUMAN: What? 
+RESPONSE: I'm going to run away. And leave everything behind. Not only because of Eury... But because I hate it here. 
+
+HUMAN: What's wrong? 
+RESPONSE: Did you see my pants anywhere? 
+HUMAN: Seriously? 
+RESPONSE: This isn't funny, you know. I gotta be at the barracks in thirty minutes. 
+HUMAN: Did you have a look under the bed, yet? 
+RESPONSE: Of course I di- Actually... Phew. 
+HUMAN: See? 
+RESPONSE: Hm. This is bad. 
+HUMAN: What? 
+RESPONSE: My service card's not in here. 
+HUMAN: Hm. You think you left it at home? 
+RESPONSE: Probably, yeah. You know if Eury is back in Aion? 
+HUMAN: I'm not sure. But I think so, yeah. 
+RESPONSE: Fuck. I'd rather not run across her, right now. 
+HUMAN: Did you have another argument? 
+RESPONSE: Right before she left, yeah. 
+HUMAN: I see. Want me to go and fetch your stuff for you? 
+RESPONSE: Nah, it's fine. Seeing you might just rile her up even more. 
