@@ -1,12 +1,10 @@
-
-
-HUMAN:
+[t]HUMAN: Where are we going?
 RESPONSE: There's nothing left for us to do here. 
 
-HUMAN:
+[e]HUMAN: Are we in a hurry?
 RESPONSE: We don't have time to stroll around. 
 
-HUMAN: What are you looking at? 
+[t]HUMAN: What are you looking at? 
 RESPONSE: Is Lieutenant Tanner in? 
 HUMAN: What's it to you? 
 RESPONSE: We have some business to discuss with him. He's expecting us. 
@@ -25,17 +23,16 @@ RESPONSE: How does that matter?
 HUMAN: Well... 
 RESPONSE: Get to the point, if you please. 
 HUMAN: Technically, I could let you in... But you'd need a visum first. 
-HUMAN: Preposterous! 
-RESPONSE: Quiet! Let's say we'd want to acquire one... 
+RESPONSE: Let's say we'd want to acquire one.
 HUMAN: Yes? 
 RESPONSE: Who do we talk to? 
-HUMAN: The custom's office.... perhaps? God, I really have to spell everything out for you, don't I? 
+HUMAN: The custom's office, perhaps? God, I really have to spell everything out for you, don't I? 
 HUMAN: You call that spelling? It's like I'm watching a dog trying to do his taxes! 
-RESPONSE: Let's not waste any more time, then. As for you... We'll be back. 
+RESPONSE: Let's not waste any more time, then. As for you. We'll be back. 
 HUMAN: Can't wait! 
 RESPONSE:
 
-HUMAN: Hey, long time no see. Let me guess... You've lost your way again, haven't you? As much as I'd like to personally hold your hand at every step- 
+[t]HUMAN: Hey, long time no see. Let me guess... You've lost your way again, haven't you? As much as I'd like to personally hold your hand at every step- 
 RESPONSE: Shut it. Enough of your bullshit. Now, you listen to me. And listen very carefully. I know Tanner is in there. And I know that he knows we're here. So you either go in there right now and fetch him... Or I swear I'll drag him out here myself! 
 HUMAN: That's what it always comes down to, eh? 
 RESPONSE: Three seconds. 
@@ -45,52 +42,32 @@ HUMAN: But it doesn't matter.
 RESPONSE: One. 
 HUMAN: He's not here, anyway. 
 RESPONSE: Where is he? 
-HUMAN: Like I would know! Checking out some place in the forest. At least so I heard. 
-HUMAN: And you couldn't tell us that right away, because? 
-HUMAN: I'm sure you've heard this one before... But you never asked. 
+HUMAN: Like I would know! Checking out some place in the forest. At least so I heard.
 RESPONSE: We're done here. 
-HUMAN: My thoughts, exactly. 
-HUMAN: Getting a bit uppity, aren't they? 
-HUMAN: At the very least we get to see a bit more of the countryside. 
+
+[t]HUMAN: At the very least we get to see a bit more of the countryside. 
 RESPONSE: We're already behind schedule, as it is. But I guess there's no helping it... Let's go. 
 
-HUMAN: Look who's back. You won't believe how much I missed the three of you! 
-HUMAN: That's rich, coming from someone who literally stands in the same spot the entire day. 
-HUMAN: You're a funny one! I thought they'd beat that out of you Shiteonians a long time ago! 
+[t]HUMAN: You're a funny one! I thought they'd beat that out of you Shiteonians a long time ago! 
 RESPONSE: Enough of that. Is the Lieutenant back? 
 HUMAN: Yeah, he's expecting you inside. 
-HUMAN: At last! 
 RESPONSE: Let's go. We've wasted more than enough time on idle nonfactors. 
-HUMAN: I'd watch my back in there, if I were you. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: There's nothing left for us to do here. 
-
-HUMAN:
-RESPONSE: We don't have time to stroll around. 
-
-HUMAN: Well, that was awkward! 
-HUMAN: This entire situation get's more ridiculous by the minute. 
+[t]HUMAN: This entire situation get's more ridiculous by the minute. 
 RESPONSE: Seems that way. But there's a limit to idiosyncratic tolerance. Let's have another word with that cryptic guardsman. 
 
-HUMAN: The world's weirdest custom's office, for sure. 
-HUMAN: Seems much more like an asylum for the mentally deranged to me... 
+[t]HUMAN: Seems much more like an asylum for the mentally deranged to me... 
 RESPONSE: I think they're far more apt than we give them credit for. In any case, Tanner should be back by now. 
 
-HUMAN:
-RESPONSE: North: Trachian Demilitarized Zone East: Ionia 
-HUMAN: Can I help you, by any chance? 
+[t]HUMAN: Can I help you, by any chance? 
 RESPONSE: Mind pointing us to the barracks? 
 HUMAN: Of course! It's right over there. 
 RESPONSE: Much obliged. 
 
-HUMAN: Glad to have you back! We're almost there. 
+[t]HUMAN: Glad to have you back! We're almost there. 
 RESPONSE: How much longer? 
-HUMAN: Well... If our driver doesn't kill us, beforehand... A few minutes, at most. 
-RESPONSE:
 
-HUMAN: Don't you guys worry about that! I made it more than clear to him that he better not mess this up! 
+[t]HUMAN: Don't you guys worry about that! I made it more than clear to him that he better not mess this up! 
 RESPONSE: A lot of initiative... For a counsellor. 
 HUMAN: Gladly! 
 RESPONSE: Anyways... You guys need a brief on anything? We are about to reach our side of the border close to Trachi's eastern checkpoint. Once we're there, we'll make contact with our man in the republican guard. Who will hand us the necessary papers to enter the city. 
@@ -103,15 +80,12 @@ RESPONSE: That is correct. And even though we can't be sure what the reason for 
 HUMAN: And what if nothing happens by the end of it? 
 RESPONSE: Let's hope it won't come to that. Now, I think you're already aware of this. But for the record... We're not formally recognized by the committee. In other words... Once we've crossed the border, we'll be stateless. Alright. Let's go. 
 
-HUMAN: So, what now? 
-HUMAN: We could try another set of passports. Though I doubt we'll even get to the first screening today. 
+[t]HUMAN: We could try another set of passports. Though I doubt we'll even get to the first screening today. 
 RESPONSE: If they don't find another reason to deny us again, that is. 
 HUMAN: How about we use the rest of the day to have a look around? And if all else fails, we can still be first in line, tomorrow. 
 RESPONSE: Worth a shot. 
-HUMAN: Agreed! 
-RESPONSE:
 
-HUMAN: Enjoyed your little stroll around the countryside? 
+[t]HUMAN: Enjoyed your little stroll around the countryside? 
 RESPONSE: Considering we're already several hours behind schedule... I'd rather skip the pleasantries. 
 HUMAN: Alright, have it your way. Now, I'm afraid you won't like what I'm going to say next. 
 RESPONSE: Is that so? 
@@ -122,18 +96,16 @@ RESPONSE: You do realize you're violating an international agreement?
 HUMAN: Whatever the case might be. It's out of my hands. You're not barred from entering the city through regular means, of course. But I'm afraid this particular route is closed to you. Now, if there's nothing else to discuss... I must formally ask you to leave Trachian territory. Unless you prefer to be escorted from the premises, of course. 
 RESPONSE: That won't be necessary. We'll be going. 
 
-HUMAN:
-RESPONSE: Over here. If you'd be so kind, Ralph. 
-HUMAN: Of course! 
-RESPONSE:
+[t]HUMAN: Where are we going?
+RESPONSE: Over here. If you'd be so kind. 
 
-HUMAN: Hm? Where the hell is Ralph? 
+[t]HUMAN: Hm? Where the hell is Ralph? 
 RESPONSE: That's a good question. Let's take a look upstairs. 
 
-HUMAN:
+[t]HUMAN: I'm bored.
 RESPONSE: We still have some business here. 
 
-HUMAN: Good day to you, sir! 
+[t]HUMAN: Good day to you, sir! 
 RESPONSE: To you, as well. Say, I was wondering if you could help me. This is the Elysian, right? 
 HUMAN: The one and only. 
 RESPONSE: Good. 
@@ -144,15 +116,7 @@ RESPONSE: Go ahead.
 HUMAN: It's open. 
 RESPONSE: After you. 
 
-HUMAN:
-RESPONSE: You guys clear on everything? 
-
-HUMAN:
-RESPONSE: Test Yes Test No 
-HUMAN: W-what? W-where am I? I can't see. Oh god... Hey!! Someone! Get me out! Someone help me... PLEASE!!! 
-RESPONSE:
-
-HUMAN: Áron. 
+[t]HUMAN: Áron. 
 RESPONSE: Gregory. 
 HUMAN: I'm glad you made it. 
 RESPONSE: Right. Where's Eury? 
@@ -165,18 +129,8 @@ RESPONSE: I told him what he needed to hear. But everything beyond that... Your 
 HUMAN: Hm. You know I haven't seen him in years. 
 RESPONSE: Yeah... But some people never change. 
 
-HUMAN: What the hell? Tillian?! 
-HUMAN: Took you long enough. Did you have another sightseeing trip or what? 
-HUMAN: I knew there was something off about you. You little shit. 
-HUMAN: Please. There is no need for this. 
-HUMAN: And you... Cerberus. You're working for them full-time now? 
-HUMAN: Sometimes a man has to follow his own heart. But I haven't called you all the way here just to reminisce. Your associate. I think Ganymede was his name? He's on his way back to Ionia? 
-HUMAN: You set him up, didn't you? 
-HUMAN: I contributed to it. A lot of people were involved in order to make it happen. 
-HUMAN: What are you implying? 
-HUMAN: Atlas? 
-HUMAN: What? 
-RESPONSE: It's true. 
+[e]HUMAN: What? 
+RESPONSE: It's the truth. 
 HUMAN: You've gotta be kidding me. 
 RESPONSE: I'm sorry, Daphne. I wish I could tell you that I had no choice. But this time, I did. And as much as I regret it... I would do it again. 
 HUMAN: You sold him out. 
@@ -198,7 +152,7 @@ RESPONSE: I'm one them, yeah.
 HUMAN: So why not work with Crius? 
 RESPONSE: We did, for a time. But recently, our goals diverged. I didn't do all of this just to play politics. Crius wants a promotion. Whereas I intend to tear the entire structure down. 
 
-HUMAN: Took you long enough. 
+[t]HUMAN: Took you long enough. 
 RESPONSE: And you were faster than I had expected. I assume you found out about it, then? 
 HUMAN: To be fair... It wasn't that hard to put the pieces together. 
 RESPONSE: How long have you been investigating him? 
@@ -275,84 +229,35 @@ RESPONSE: Call it a win-win.
 HUMAN: Even for the girl? 
 RESPONSE: No. Do you regret it, then? 
 HUMAN: Does it ever get any easier? 
-RESPONSE: Unfortunately, it does. Which is why it's important for us realize that things like these can't go on any longer. You see, the man next to you... You see, the man next to you... 
-HUMAN: Don't dig to deep, Atlas. But why? 
-RESPONSE: To you, specifically. ... Then see it for yourself. 
-HUMAN: To what end? Alright. I think I've heard enough. 
-RESPONSE: You know, she told me about you... You know, she told me about you... May he rest in piece. 
-HUMAN: I'm sorry. Well, congratulations. Well, congratulations. 
-RESPONSE: But that's not all 
-HUMAN: Let me get this right... 
-RESPONSE: But for that to happen... 
+RESPONSE: Unfortunately, it does. Which is why it's important for us realize that things like these can't go on any longer.
 
-HUMAN: I gotta say... You really had a lot of us fooled... 
-HUMAN: What do you mean by that? 
-HUMAN: I know you've been in contact with him. 
-HUMAN: That was a long time ago. And I told the service about that when I crossed over. 
-HUMAN: I'm not referring to that. Did you know he was the one who tipped us off about Glundon? 
-HUMAN: I suspected as much. But I had no proof. 
-HUMAN: And you still took the bait. Which means you're either stupid... Or not on our side, after all. 
-HUMAN: What are you implying? 
-HUMAN: The secretary saw you leave the building last night. Atlas, who had meanwhile briefly been to the safehouse, leaves around ten minutes later. And the next morning, one of our most valuable assetts is found drifting in the sewers. Now, I don't have any proof, nor do I know what exactly happened... But you've got to admit that this doesn't put you in a good light. 
-HUMAN: What are you implying? 
-HUMAN: I don't for sure. How about you tell me? What where you doing yesterday when you went out? 
-HUMAN: Go ahead. 
-RESPONSE: Tell him. 
-HUMAN: You're early, as always. 
+[t]HUMAN: If you really want to know.
+RESPONSE: Tell me.
+
+[t]HUMAN: You're early, as always. 
 RESPONSE: Don't change the subject. 
-HUMAN: What's the meaning of this? Explain yourself! 
-HUMAN: You're a bright one, Tillian. I'm sure you've got it all figured out, by now. 
-RESPONSE:
 
-HUMAN: What the hell? Tillian?! 
-HUMAN: Took you long enough. Did you have another sightseeing trip or what? 
-HUMAN: I knew there was something off about you. You little shit. 
-HUMAN: Please. There is no need for this. What do you mean by that? 
-HUMAN: I know you've been in contact with him. 
-HUMAN: That was a long time ago. And I told the service about that when I crossed over. 
-HUMAN: I'm not referring to that. Did you know he was the one who tipped us off about Glundon? 
-HUMAN: I suspected as much. But I had no proof. 
-HUMAN: And you still took the bait. Which means you're either stupid... Or not on our side, after all. 
-HUMAN: What are you implying? 
-HUMAN: The secretary saw you leave the building last night. Atlas, who had meanwhile briefly been to the safehouse, leaves around ten minutes later. And the next morning, one of our most valuable assetts is found drifting in the sewers. Now, I don't have any proof, nor do I know what exactly happened... But you've got to admit that this doesn't put you in a good light. 
-HUMAN: What are you implying? 
-HUMAN: I don't for sure. How about you tell me? What where you doing yesterday when you went out? 
-HUMAN: Go ahead. 
-RESPONSE: Tell him. 
-HUMAN: You're early, as always. 
-RESPONSE: Don't change the subject. 
-HUMAN: What's the meaning of this? Explain yourself! 
-HUMAN: You're a bright one, Tillian. I'm sure you've got it all figured out, by now. 
-RESPONSE:
-
-HUMAN: So you're telling me the three of you have been working together, this entire time? 
-HUMAN: In some sense, yeah. You see, the fact that our profession exists is symptomatic of a certain type of society. However, we cannot simply put the blame on the average individual. We're supposed to be watchmen and enforcers. But recently, we've become the judges, as well. 
-HUMAN: What's your point? 
-RESPONSE: His point is... We can't simply go on like this. There's a war about to happen. And as much we hate to admit it... We're the among the people to blame for it. Of course, we can't stop it by ourselves. However, we can at least do something right. The three of us. Cerberus. Eurydice. And me. We all have prepared a full account of everything we've done in the course of our careers. Tomorrow morning, these confession will be sent to all the publishers across the continent. 
-HUMAN: Are you shitting me? You set all of this up... Just because you can't take the heat? And you seriously think it's going to make a change? 
-HUMAN: Who knows. But one thing's for sure... The people deserve to know what's going on. 
+[t]HUMAN: What's your point? 
+RESPONSE: My point is: We can't go on like this. There's a war about to happen. And as much we hate to admit it, we're partially to blame.
+HUMAN: So, what are we going to do?
+RESPONSE: We can't stop it by ourselves. However, we can at least do something right. You and our people. We've prepared a full account of everything we've done. Tomorrow morning, these confessions are sent around the world. 
 HUMAN: You guys are insane. If you want to throw your lives away, then go ahead! But do you realize... How many people you're going to get killed? 
 RESPONSE: Yeah. But there's no other way. 
-HUMAN: I can't believe you... Not content to put me through hell once, are you? No. Once again... You take everything that is dear to me... And grind it into dust. 
-RESPONSE: I'm sorry, Daphne. 
-HUMAN: There's no need to apologize. You're just doing what's best for yourself. But you know what... Two can play that game. 
-RESPONSE:
+HUMAN: I can't believe you. You're dragging me through hell not once but twice. Once again, you take everything that is dear to me – and grind it into dust. 
+RESPONSE: I'm sorry.
 
-HUMAN: Damn. I missed. 
-HUMAN: Eury... I'll go and fetch a doctor. 
-HUMAN: Don't bother. I think I'm done for. 
+[t]HUMAN: Don't bother. I think I'm done for. 
 RESPONSE: Don't say that. I refuse to let you go. 
 HUMAN: It's a bit late for that, isn't it? But I do appreciate the sentiment. 
 RESPONSE: Stop the melodramatic bullshit, already. You'll live, you hear me?! 
-HUMAN: Thank you for everything, the two of you. And don't worry about me, too much. Because I can finally apoligize to her. 
-HUMAN: Atlas! Don't. We'll need her. 
+
+[t]HUMAN: Atlas! Don't. We'll need her. 
 RESPONSE: You're right. Don't wait for me. 
 
-HUMAN: So, where to? 
+[t]HUMAN: So, where to? 
 RESPONSE: Forest shouldn't be far. Northeast, I think? 
 
-HUMAN: South: Trachi North: Nestville 
-HUMAN: Sorry sir... But this area is closed off, at the moment. 
+[t]HUMAN: Sorry sir... But this area is closed off, at the moment. 
 RESPONSE: That's the road to Nestville, right? 
 HUMAN: What's left of it, anyway. 
 RESPONSE: What happened? 
@@ -360,58 +265,34 @@ HUMAN: Well... I'm not really authorized to speak about that. We're doing our be
 RESPONSE: Mind if we take a look ourselves? 
 HUMAN: As I said, the area's quite "precarious". I'd strongly advise you to turn around, while you have the chance. 
 RESPONSE: Note taken. Now, would you move aside, please? 
-HUMAN: Can't you take a hint? This is for your own good! 
-HUMAN: You're awfully pushy for someone claiming to offer advice. 
 HUMAN: I'm just trying to talk sense into you. 
-RESPONSE: And we appreciate that. But if you don't move out of the way immediately... I'll make you. 
+RESPONSE: I appreciate that. But if you don't move out of the way immediately, I'll have to make you. 
 HUMAN: Alright, I get it. If you're so keen on hurting yourself, be my guest. 
 RESPONSE: We've got to be somewhere anyway. 
 
-HUMAN: You again? 
-RESPONSE: That's the road to Nestville, right? 
-HUMAN: What's left of it, anyway. 
-RESPONSE: What happened? 
-HUMAN: Well... I'm not really authorized to speak about that. We're doing our best to get the situation back under control, though! 
-RESPONSE: Mind if we take a look ourselves? 
-HUMAN: As I said, the area's quite "precarious". I'd strongly advise you to turn around, while you have the chance. 
-RESPONSE: Note taken. Now, would you move aside, please? 
-HUMAN: Can't you take a hint? This is for your own good! 
-HUMAN: You're awfully pushy for someone claiming to offer advice. 
-HUMAN: I'm just trying to talk sense into you. 
-RESPONSE: And we appreciate that. But if you don't move out of the way immediately... I'll make you. 
-HUMAN: Alright, I get it. If you're so keen on hurting yourself, be my guest. 
-RESPONSE: This is going nowhere. 
+[t]HUMAN: I wonder what his deal with Tanner is... 
+RESPONSE: Nothing that should concern us at any rate. Let's get a move on. We have to be inside the city by dusk. 
 
-HUMAN: What an odd fellow! 
-HUMAN: Eccentric to say the least! Though I bet he's far more gentle and soft towards the forest's inhabitants! ♥ 
-HUMAN: I wonder what his deal with Tanner is... 
-RESPONSE: Nothing that should concern us, in any case. Let's get a move on. We have to be inside the city by dusk. 
+[t]HUMAN: That was surprisingly productive! 
+RESPONSE: Yeah. Northwards, then.
 
-HUMAN: That was surprisingly productive! 
-RESPONSE: Yeah. Northwards, then. 
-
-HUMAN: You people heading north? 
+[t]HUMAN: You people heading north? 
 RESPONSE: That's none of your business. 
-HUMAN: Easy there! Just wanted to give you some friendly advice, that's all! There's some scum out and about, lately. So I'd better watch my back, if I were you. 
-RESPONSE:
 
-HUMAN: Yo! It's you lot again. 
+[e]HUMAN: Yo! It's you lot again. 
 RESPONSE: Yeah. We'll talk to him. 
 HUMAN: Thank you! I knew you'd come around! 
 RESPONSE: Are you going to let us through? 
 HUMAN: Oh, right! Sorry! 
-RESPONSE:
 
-HUMAN: Hey, you there! Mind doing me a favour, real quick? 
+[t]HUMAN: Hey, you there! Mind doing me a favour, real quick? 
 RESPONSE: Sorry. But we're just passing through. 
 HUMAN: It'll only take a minute! There's this lad living in that cabin, over there. My job's to check up on him... But he keeps telling me to sod off. 
 RESPONSE: So? 
-HUMAN: Come on, guys... My career's on the line here, damn it! 
+HUMAN: Come on, guys! My career's on the line here, damn it! 
 RESPONSE: Sounds like a you problem to me. 
-HUMAN: Fine! I'll just do it, myself! Not like I'm scared of that cranky old bugger, anyway! 
-RESPONSE:
 
-HUMAN: Yeah? What do you want? 
+[e]HUMAN: Yeah? What do you want? 
 RESPONSE: That's a nice uniform you have on display over there. From what I know, you're normally not allowed to keep those. 
 HUMAN: Some people have a hard time letting go. But I doubt that you're here to discuss memorabilia. 
 RESPONSE: Right. There's a man named Heinrich. A former member of the guard. 
@@ -430,9 +311,7 @@ RESPONSE: Of course. We're looking for Lieutenant Tanner. Have you seen him, by 
 HUMAN: Not in a long time, no. And frankly, he might as well smolder in the deepest depths of hell, for all I care. 
 RESPONSE: Alright. Thank you for your time, regardless. 
 
-HUMAN:
-RESPONSE: That's a nice uniform you have on display over there. From what I know, you're usually not allowed to keep those. 
-HUMAN: Some people have a hard time letting go. But I doubt that you're here to discuss memorabilia. 
+[t]HUMAN: Some people have a hard time letting go. But I doubt that you're here to discuss memorabilia. 
 RESPONSE: Right. There's a man named Heinrich. A former member of the guard. 
 HUMAN: Who told you about him? 
 RESPONSE: Does the name Julius Gaston ring any bells? 
@@ -446,10 +325,8 @@ HUMAN: Well, I can't help you with that. But there's a small community up north,
 RESPONSE: Thank you for your help. 
 HUMAN: Don't mention it! Now, if you'd excuse me, I'd rather not be involved any more than necessary. 
 RESPONSE: Of course. 
-HUMAN: We're done. 
-RESPONSE:
 
-HUMAN: Can we stop here for a second? 
+[t]HUMAN: Can we stop here for a second? 
 RESPONSE: If we have to. 
 HUMAN: There's a question I want to ask. 
 RESPONSE: Go ahead. 
@@ -468,7 +345,7 @@ RESPONSE: I'm not sure if that's an assurance or a threat... But I appreciate th
 HUMAN: I'd hate to interrupt your little bonding session. But there's a custom's office I'd like to have another look at. If you guys don't mind, of course! 
 RESPONSE: Good idea. Let's go. 
 
-HUMAN: HEY! What do you think you're doing here? This area's not safe for civilians. 
+[t]HUMAN: HEY! What do you think you're doing here? This area's not safe for civilians. 
 RESPONSE: And why's that? 
 HUMAN: We're in the middle of an investigation here. Though we have the situation fully under control, we can't be sure if there's still someone at large. 
 RESPONSE: Is Lieutenant Tanner on site? 
@@ -476,12 +353,8 @@ HUMAN: That's no concern of yours.
 RESPONSE: Answer the question, please. 
 HUMAN: As I said. It's none of your business. So you either vacate this place... Or I'll have to remove you by force. 
 RESPONSE: Not until you've told me where your acting officer is. 
-HUMAN: This is your last warning! Piss off! 
-RESPONSE:
 
-HUMAN: What's going on here!? 
-HUMAN: S-sir! I was just telling this civilian to leave. 
-HUMAN: That I heard. You may stand down. I'll take it from here. Now, I gather there's some kind of disagreement? 
+[t]HUMAN: I gather there's some kind of disagreement? 
 RESPONSE: Nothing that can't be solved. We're looking for Lieutenant Tanner. 
 HUMAN: I see. Well, you found him. 
 RESPONSE: Good. 
@@ -500,41 +373,10 @@ RESPONSE: We're coming with you.
 HUMAN: I was afraid you were going to say that. As you wish. A word of warning, though... This won't be pretty. 
 RESPONSE: He's got a point. Stay on your toes in there. 
 
-HUMAN:
-RESPONSE: We're finished here. 
+[t]HUMAN: Are we done?
+RESPONSE: Yeah. We're finished here. 
 
-HUMAN: Welcome back. Let's start from the beginning, shall we? What's your name? 
-HUMAN: Why do we have to go over this again? I already told you everything! 
-HUMAN: I ask, you answer! 
-HUMAN: Julius Gaston... 
-HUMAN: Very good! Profession? 
-HUMAN: Working the docks, mostly. 
-HUMAN: What's the purpose of this hideout? 
-HUMAN: Keeping our heads dry until we're cleared to enter Trachi. 
-HUMAN: Liar! 
-HUMAN: Hit me as much as you want. At some point, it's all coming back to you. You think Heinrich would have tolerated behaviour like that? 
-HUMAN: How dare you lecture me on morals! But I digress... Now, I'm going to ask you one last time: Did or did you not try to smuggle contraband into the city? 
-HUMAN: As you can see, our things are not being taken anywhere. 
-HUMAN: So what's your business hiding out here, then? 
-HUMAN: Are you deaf? I just told you. We were waiting for the customs officer to approve our request, then you lot showed up. 
-HUMAN: Then I hope you don't mind me asking... Can you proof that? 
-HUMAN: Huh? 
-HUMAN: You heard me. 
-HUMAN: How about you go ask your people at the custom's office, instead? 
-HUMAN: We did. 
-HUMAN: So? 
-HUMAN: None of the staff were able to confirm your statement. And neither was there any record of your application. 
-HUMAN: What!? 
-HUMAN: Your confusion is as big as mine. Come on, Julius. Out with the truth! 
-HUMAN: This can't be right! I was there, and you know it! 
-HUMAN: I wish. But as it stands... This is your last chance to confess! Admit it already, you scum! 
-HUMAN: No! 
-HUMAN: You know, I always respected you. It's a pity, really. By power of Parliament... I hereby judge you guilty of attempting a large-scale smuggling operation. Corporal, the cleaver! 
-HUMAN: Aye Sir! 
-HUMAN: Seriously? 
-HUMAN: Something you want to say? 
-HUMAN: Is that how you handle problems around here? 
-HUMAN: Am I to take this as an official act of intervention? 
+[e]HUMAN: Am I to take this as an official act of intervention? 
 RESPONSE: No. Carry on. 
 HUMAN: You're ok with this? 
 RESPONSE: My personal opinion doesn't matter. We should go. 
@@ -543,81 +385,58 @@ RESPONSE: I certainly hope so. If not...
 HUMAN: Yes, yes... I know. 
 RESPONSE: We'll see you there. 
 
-HUMAN:
+[t]HUMAN: Let's go someplace else.
 RESPONSE: We should see this. 
 
-HUMAN:
-RESPONSE: We should see this. 
-
-HUMAN: Woah! Outsiders! Y-you're not one of those mercenaries, are you? 
-HUMAN: You're damn right we are! Here to claim what's ours at last! 
+[t]HUMAN: You're damn right we are! Here to claim what's ours at last! 
 RESPONSE: Will you stop, for pity's sake? 
 
-HUMAN: I've been expecting you. 
-HUMAN: I think you might be confusing us with someone else. 
-HUMAN: Not at all! Three vagabonds from afar, it said. Strong-willed heroes, not to be deterred by any force, be it man or nature. 
+[t]HUMAN: Not at all! Three vagabonds from afar, it said. Strong-willed heroes, not to be deterred by any force, be it man or nature. 
 RESPONSE: Your point, if you'd be so kind. 
-HUMAN: Yes, yes! I can feel it churning within you! A fire smoldering, but unignited. Honey? Are you harassing strangers again? Silence! I will not be inhibited! 
 HUMAN: What exactly are we witnessing here? 
-RESPONSE: We better get some distance while she's distracted. 
+RESPONSE: We better get some distance while her mind is someplace else. 
 
-HUMAN:
-RESPONSE: There's no point going back in there. 
-
-HUMAN: Speak of the devil. You okay? 
+[e]HUMAN: Speak of the devil. You okay? 
 RESPONSE: Yeah. 
 HUMAN: We miss anything important? 
 RESPONSE: Nothing, really. Just mistook me for someone else. Let's see if we can get an appointment with the councillor, now. Let's keep on looking. 
-HUMAN: Alright. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: No point going back there anymore. 
+[t]HUMAN: HEY!
+RESPONSE: Huh?
+HUMAN: Sorry, did I scare you?
+RESPONSE; Nah, you just reminded me of her.
+HUMAN: Who?
+RESPONSE: Doesn't matter.
 
-HUMAN:
-RESPONSE: HEY! 
-
-HUMAN:
-RESPONSE: HEY! 
-
-HUMAN:
+[t]HUMAN: Follow me.
 RESPONSE: Nestville is the other way. 
 
-HUMAN: Mind telling me what you're trying to do here? 
-HUMAN: Considering you're the one throwing random questions at people... How about you introduce yourself, first? 
-HUMAN: It's not me who's trying to enter a peaceful village unannounced! 
+[t]HUMAN: It's not me who's trying to enter a peaceful village unannounced! 
 RESPONSE: You're part of this enclave? 
 HUMAN: You bet! The name's Tillian. I'm the deputy leader of Nestville's militia. Now, how about you tell me what's your business here? 
 RESPONSE: You know a man named Heinrich? 
 HUMAN: You talked to him? 
 RESPONSE: On our way here, yeah. 
 HUMAN: How is he? 
-HUMAN: Pretty grumpy. 
-HUMAN: The usual, then. 
-RESPONSE: Do you have a village chief or someone we can talk to? 
+RESPONSE: Do you have a representative we can talk to? 
 HUMAN: Yeah. Not sure if anyone's available... But knowing Kris, he's probably still in the council hall. It's the big building at the end of the road. 
 RESPONSE: Alright. Thanks for your help. 
-HUMAN: Don't mention it. I finished my patrol for today. So I'll be here until nightfall, if you need anything else. Later then! 
-RESPONSE:
 
-HUMAN: Back already? How did it go? 
+[t]HUMAN: Back already? How did it go? 
 RESPONSE: Positively. 
 HUMAN: Glad to hear it! 
 RESPONSE: You'll be leading us into the city? 
 HUMAN: Yup. The boat is just a bit west of here. 
 RESPONSE: Alright. Let's go, then. 
 
-HUMAN:
-RESPONSE: North: Nestville South: Trachi Autonomous community Nestville 
-
-HUMAN: Hey there! What can I do for you? 
-RESPONSE: Is the councillor in, by any chance? 
+[t]HUMAN: Hey there! What can I do for you? 
+RESPONSE: Is the councillor in? 
 HUMAN: Ah, it's you! He's in a meeting right now. And wants me to relay his sincere apologies for the delay. 
 RESPONSE: Excuse me? He knows we're here? 
 HUMAN: Naturally! I could almost hear Tilian screaming at you from here. You see, when our little enclave isn't arguing about something, we're able to function almost like a proper community would. I mean, we've only been at it for three years – 
 RESPONSE: I get your point. Let's wait... somewhere else. 
 
-HUMAN: Oh, it's you again! How's your stay in Nestville so far? 
+[t]HUMAN: Oh, it's you again! How's your stay in Nestville so far? 
 RESPONSE: Prolonged, to say at least. 
 HUMAN: Hey there! What can I do for you? 
 RESPONSE: Is your councillor in? 
@@ -626,56 +445,36 @@ RESPONSE: He knows we're here?
 HUMAN: Naturally! I could almost hear Tilian screaming at you from here. You see, when our little enclave isn't arguing about something, we're almost able to function like a proper community would. I mean, we've only been at it for three years – 
 RESPONSE: I get your point. 
 HUMAN: Well, I'll inform the councillor right away. 
-HUMAN: That won't be necessary. Pleased to meet you. My name is Kristofor De Bloom. I'm the head-councillor of Nestville. Now, I'd like to talk with you about a few things... If you'd follow me, please. 
-RESPONSE:
 
-HUMAN: **Locked** 
-RESPONSE: We're finished here. 
-
-HUMAN: Changed your mind? Well? 
+[t]HUMAN: Did you change your mind?
 RESPONSE: It would be rude to refuse, right? 
 HUMAN: Precisely! Just give me a second, I'll set the table. 
 HUMAN: I'd be happy to help! 
 HUMAN: Thank you! It's highly appreciated! 
 RESPONSE: I'm afraid it's still a no. 
-HUMAN: A shame. 
-RESPONSE:
+HUMAN: A shame.
 
-HUMAN: Just a tiny bit more salt... There... Now it's perfect! 
-HUMAN: Certainly smells great from where I'm standing! 
-HUMAN: Oh, excuse me! I didn't hear you come in. Can I help you, by any chance? 
+[t]HUMAN: Oh, excuse me! I didn't hear you come in. Can I help you, by any chance? 
 RESPONSE: Sorry for intruding. We were having a look around... And apparently, some of us can't resist the scent of a freshly cooked meal. 
-HUMAN: I firmly recall you being the first one to cross the doorframe. 
 HUMAN: I second that notion! 
-RESPONSE: Honestly... 
+RESPONSE: Honestly.
 HUMAN: Here's a thought! Why don't the three of you sit down and have dinner with me? 
 RESPONSE: We couldn't possibly accept that. 
 HUMAN: But you came here looking for something, didn't you? 
 RESPONSE: And you think we've just stumbled into the right place? 
 HUMAN: You never know! Well? Great! Just give me a second, I'll set the table right away! 
-HUMAN: I'd be happy to help, if you don't mind. 
-HUMAN: Thank you, it's highly appreciated! 
 RESPONSE: I'm sorry. Your offer is very kind. But we have to be somewhere. 
 HUMAN: I see! Don't worry about it! You're always welcome! 
 RESPONSE: It's appreciated. 
-HUMAN: Don't mention it. You know where to find me. I hope we'll meet again, someday. 
-RESPONSE:
 
-HUMAN: That was amazing! 
-HUMAN: Agreed! 
-HUMAN: Thank you! 
-RESPONSE: I just hope we left enough for your other guests. 
-HUMAN: Well... I'm sorry. 
+[e]HUMAN: I'm sorry. 
 RESPONSE: Hm? 
 HUMAN: It's been a while since I've had company for dinner. So I might have been a bit pushy earlier. The truth is... I'm very glad to have someone sit down with me once in a while. And when I heard the three of you talking... I couldn't help but feel like I was back home, again. 
 RESPONSE: It's me who should apologize. I had no right to be nosy. I'm sorry I brought it up. 
-HUMAN: It's fine. Say... I have a question for you, specifically. If you don't mind, of course. 
+HUMAN: It's fine. Say.– I have a question for you, specifically. If you don't mind, of course. 
 RESPONSE: What kind of question? 
-HUMAN: Gany? 
-HUMAN: Hm? 
-HUMAN: There's something I want to check out real quick... Mind accompanying me? 
-HUMAN: Sure, I guess.. Well, I'll see you later, then. Thank you very much for the meal! 
-HUMAN: You're welcome. Feel free to stop by anytime you're in town. Travelling with those two must be a lot of fun. 
+
+[e]HUMAN: Travelling with those two must be a lot of fun. 
 RESPONSE: I'm afraid you've just witnessed the one occasion where they behaved somewhat discretely. Though their enthusiasm is commendable, without a doubt. That's not what you wanted to ask me, though... Right? 
 HUMAN: Right! Now, I hope I'm not imagining things... We've met before, haven't we? 
 RESPONSE: Possibly. 
@@ -688,11 +487,9 @@ RESPONSE: You've got it all wrong. I'm not here because of you. In fact, we're s
 HUMAN: Well, what a coincidence. But since you're at least trying to be honest, I'll return the favour. I couldn't care less about what kind of chaos you are trying to wreak, this time. Go ahead... And do your worst. But if any harm comes to this village... I will hold the three of you accountable. 
 RESPONSE: Is that all? 
 HUMAN: Yeah. We're finished. 
-RESPONSE: Alright. Thank you for having us. It was extraordinary, as always. Farewell, Eury. 
-HUMAN: You too... Atlas. 
-RESPONSE:
+RESPONSE: Alright. Thank you for having us. It was extraordinary, as always. Farewell, Eury.
 
-HUMAN: I'll get straight to the point. Heinrich sent you, from what I heard. And while I'm glad he had someone to speak with... It also means that the matter is serious. 
+[t]HUMAN: I'll get straight to the point. Heinrich sent you, from what I heard. And while I'm glad he had someone to speak with... It also means that the matter is serious. 
 RESPONSE: You've heard what's happening at the checkpoint? 
 HUMAN: Bits and pieces of it. Though we're trying our best not to get involved. And yet, you're here. 
 RESPONSE: Right. 
@@ -727,88 +524,54 @@ RESPONSE: And to you.
 HUMAN: One more thing. I hope I'm not adding more fuel to the fire by helping you. 
 RESPONSE: We'll see about that. Until next time. 
 
-HUMAN: What do you want? 
-HUMAN: Hey Damien! You're still on watch? 
-HUMAN: Oh, it's you! You weren't supposed to be here for at least another hour. Who's that with you? 
-HUMAN: It's a long story. And we need to get going soon. 
-HUMAN: Listen... I was nice enough to let you take the boat once, seeing how desperate you were. But I won't put my ass on the line just so you can see your girlfriend again. 
-HUMAN: She's not my girlfriend! 
-RESPONSE: Are you two finished? 
+[t]HUMAN: She's not my girlfriend! 
+RESPONSE: Are you finished? 
 HUMAN: Who are you again? 
 RESPONSE: It doesn't matter. As you can see, your councillor granted us passage. 
 HUMAN: Hm. Looks legit to me. Wish I could say the same about you. 
 RESPONSE: Whatever the case might be... We really need to get going now. 
 HUMAN: Don't let me keep you, then. 
 RESPONSE: Thank you. 
-HUMAN: Oh... and Tillian? 
-HUMAN: Yeah? 
-HUMAN: You still owe me, don't you forget that! 
-HUMAN: ... 
-RESPONSE:
 
-HUMAN:
-RESPONSE: It's in here? 
-HUMAN: Yeah. Let me take the cover off. Alright. One... and two! 
-RESPONSE:
-
-HUMAN: Can't believe it's finally happening. 
+[t]HUMAN: Can't believe it's finally happening. 
 RESPONSE: We're not inside the city yet. 
 HUMAN: Considering our track record... We're about to get hit by a lightning strike. 
 RESPONSE: Then let's move, before it catches up to us. 
-HUMAN: Are you guys always that cynical? 
-RESPONSE:
 
-HUMAN: Aren't we supposed to go from west to east? 
+[t]HUMAN: Aren't we supposed to go from west to east? 
 RESPONSE: Did you hear that? 
 HUMAN: Yep. 
 RESPONSE: Would you mind? 
-HUMAN: I thought you'd never ask. Alright. Listen up, whoever's in there! Either you be a kind citizen and open this door at once... Or we'll have to force our way through! Well, looks like the lot of you won't have a front door anymore! 
-RESPONSE:
 
-HUMAN: I'll take point. 
+[t]HUMAN: I'll take point. 
 RESPONSE: Just don't forget to check your corners. 
 
-HUMAN:
-RESPONSE: Coming! 
-
-HUMAN: Yeah? 
+[t]HUMAN: Yeah? 
 RESPONSE: EnKAD. 
 HUMAN: I'm terribly sorry! This has to be a mistake! 
 RESPONSE: Calm down. It's just a routine inspection. Mind if we come in? 
-HUMAN: Oh! No! Not at all... 
-RESPONSE:
 
-HUMAN:
+[t]HUMAN: Slow down a minute.
 RESPONSE: We have to keep going. 
 
-HUMAN:
-RESPONSE: This one's been cleared, already. 
+[t]HUMAN: What's in that house?
+RESPONSE: It's been cleared, already. 
 
-HUMAN:
-RESPONSE: That one has been cleared, already. 
-
-HUMAN: Uhm... Not that it's my business or anything... But aren't we supposed to search their homes, too? 
+[e]HUMAN: Uhm... Not that it's my business or anything... But aren't we supposed to search their homes, too? 
 RESPONSE: You're right. Looks like I've forgotten that one. 
-HUMAN: Is that so? Unfortunate. 
-RESPONSE:
 
-HUMAN: HEY! Not dozing off in the middle of a mission, are we? Seriously... 
+[t]HUMAN: HEY! Not dozing off in the middle of a mission, are we? Seriously... 
 RESPONSE: Like there's a point in rushing things... This place is cordoned off, anyway. 
 HUMAN: Whatever you say~ But can we at least take shelter somewhere? It's pouring like crazy, if you haven't noticed! 
 RESPONSE: Yeah. Let's keep checking those houses. 
-HUMAN: Righto! 
-RESPONSE:
 
-HUMAN: Another one, really? Well, time's a wasting! 
+[e]HUMAN: Another one, really? Well, time's a wasting! 
 RESPONSE: Don't get your hopes up. 
 
-HUMAN: Whoops! 
+[t]HUMAN: Whoops! 
 RESPONSE: Stop right there! 
 
-HUMAN:
-RESPONSE: There's nothing left for us to do here. 
-
-HUMAN: Wait. 
+[t]HUMAN: Wait. 
 RESPONSE: What's wrong? 
 HUMAN: I know I shouldn't be asking this. 
 RESPONSE: Then don't. 
@@ -819,30 +582,19 @@ RESPONSE: Yeah... Some people do that.
 HUMAN: What about you? 
 RESPONSE:
 
-HUMAN: The window! I'll go after him. 
+[t]HUMAN: The window! I'll go after him. 
 RESPONSE: I don't think splitting up is a good idea. But we don't really have a choice. 
 HUMAN: Right. I'll be back in a second. 
 RESPONSE: Might as well use the chance. 
 
-HUMAN:
-RESPONSE: I should hurry up, there's no telling when she'll be back. 
-
-HUMAN:
-RESPONSE: You're back already. 
-HUMAN: Yup. Couldn't find a damn thing back there. A few scraps of cloth, and a bit of blood. But nothing else. 
+[t]HUMAN: Yup. Couldn't find a damn thing back there. A few scraps of cloth, and a bit of blood. But nothing else. 
 RESPONSE: Doesn't matter. We got what we came for. 
 HUMAN: That's good news, I guess. 
 RESPONSE: Yup. Let's head back and report. 
 HUMAN: Yeah. 
 RESPONSE:
 
-HUMAN:
-RESPONSE: I should hurry up, there's no telling when she'll be back. 
-
-HUMAN:
-RESPONSE: I'll see you in hell. 
-
-HUMAN: Of all the people. Are you alone? 
+[t]HUMAN: Of all the people. Are you alone? 
 RESPONSE: For now. 
 HUMAN: Convenient. 
 RESPONSE: You know why I'm here? 
@@ -871,7 +623,7 @@ RESPONSE: We always do.
 HUMAN: Good. Go ahead, then. Don't let a dead man keep you. Do it, you coward! 
 RESPONSE: Rest easy... Comrade. 
 
-HUMAN: So... how can I help you? 
+[e]HUMAN: So! how can I help you? 
 RESPONSE: Just a few questions. 
 HUMAN: O-of course! 
 RESPONSE: Your name, please. 
@@ -882,7 +634,7 @@ RESPONSE: Including?
 HUMAN: Helping out on construction sites, for the most part. 
 RESPONSE: And apart from that? 
 HUMAN: Used to work as a seasonal farmhand. 
-RESPONSE: That girl over there... She's your daughter? 
+RESPONSE: That girl over there. She's your daughter? 
 HUMAN: Yes. 
 RESPONSE: Where's her mother? 
 HUMAN: Died during child-birth. 
@@ -893,10 +645,8 @@ HUMAN: Not really... As you might have noticed, we are kind of sticking out.
 RESPONSE: Alright. Well, I think we're about done here. Is there anything else you'd like to tell us? 
 HUMAN: Nothing I can think of right now. 
 RESPONSE: Alright. Please let us know if there's something else you'd like to add to your statement. Thank you for your cooperation. And have a nice day. 
-HUMAN: Likewise. 
-RESPONSE:
 
-HUMAN: Come in. You're late. 
+[t]HUMAN: Come in. You're late. 
 RESPONSE: I know. 
 HUMAN: I read your report. A shame it's come to this. But Hyperion wanted you there. 
 RESPONSE: I figured as much. 
@@ -918,10 +668,8 @@ HUMAN: ATLAS! Do you remember... How I tried to keep Lorna out? That didn't go v
 RESPONSE: Yeah. And while we're on that topic... You need to talk to her. Soon. 
 HUMAN: I don't think this is the time nor the place. 
 RESPONSE: I'm serious, Eury. And so is she. 
-HUMAN: Alright... Tell me. 
-RESPONSE:
 
-HUMAN:
+[t]HUMAN: Can you tell me more?
 RESPONSE: I'm not a diplomat, mind you. 
 HUMAN: I know. You're not going there to hammer out terms... But to enforce them. 
 RESPONSE: That's it? 
@@ -947,29 +695,23 @@ HUMAN: Watch her and wait.
 RESPONSE: For what? 
 HUMAN: For Orpheus to show himself. 
 RESPONSE: You think he's still around? 
-HUMAN: His fingerprints are all over the area. He's planning something. And I want you to put a stop to it. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: With all due respect... Are you insane? 
-HUMAN: We need to do something, Atlas. And you know it. 
+[e]HUMAN: We need to do something, Atlas. And you know it. 
 RESPONSE: That's not what I'm talking about. 
 HUMAN: What is it, then? 
 RESPONSE: Stop playing games with me. You know Lorna's on that list. 
 HUMAN: And you know I have little control over military affairs. 
 RESPONSE: Convenient. 
 HUMAN: Listen, Atlas... I've been very patient with you, so far. In fact... The only reason why you're on MY list, is because I'm doing you a favour. So if you don't want to participate... Be my guest. 
-RESPONSE: You know I wouldn't let her go with anyone else. 
-HUMAN: Right. Now, if you'd let me finish this time. I can explain it to you, properly. The people going to that dam are as good as dead, as we both know. Which is why I won't send you there. I've made a couple of inquiries. About the strength of our forces at the border to Amryn. Naturally, most of our troops are deployed in the area around Trachi, at the moment. Leaving the eastern checkpoints stretched incredibly thin. 
-RESPONSE:
+RESPONSE: You know I wouldn't let her go with anyone else.
 
-HUMAN:
+[t]HUMAN: Where was it again?
 RESPONSE: The embassy is in Gharten Street, northwest of Trenton Plaza. 
 
-HUMAN:
+[e]HUMAN: Hey, Atlas!
 RESPONSE: Don't you have somewhere else to be? 
 
-HUMAN:
+[t]HUMAN: Let's go!
 RESPONSE: Right. You have the keys? 
 HUMAN: Mhm. 
 RESPONSE: Will he manage? 
@@ -994,7 +736,7 @@ RESPONSE: You'll take care of the upper level, including our man, himself.
 HUMAN: Got it! 
 RESPONSE: Ganymede, on the other hand... At the same time, Ganymede will stake out the ground floor... And make sure that his wife won't get in the way. She doesn't know about any of this, according to him... So try to be on your best behaviour. 
 
-HUMAN: You're back. 
+[e]HUMAN: You're back. 
 RESPONSE: Yeah. And you're on your feet again. 
 HUMAN: Still a bit shaky. But getting better by the minute. 
 RESPONSE: Glad to hear that. 
@@ -1025,13 +767,10 @@ RESPONSE: Nothing extraordinary. Just keep an eye on the embassy. See who enters
 HUMAN: Makes sense. Alright. I'll be back later, then. 
 RESPONSE: Good luck out there. 
 
-HUMAN: Alright. Just keep her busy, then? 
+[t]HUMAN: Alright. Just keep her busy, then? 
 RESPONSE: Exactly. Let Daphne handle the rest. 
-HUMAN: Okay. 
-HUMAN: I'll go and get into position, then. See you there. 
-RESPONSE:
 
-HUMAN: Hm... He's not here, either. 
+[t]HUMAN: Hm... He's not here, either. 
 RESPONSE: I have a bad feeling about this. ... 
 HUMAN: What is it? 
 RESPONSE: They have Ralph. 
@@ -1052,7 +791,7 @@ RESPONSE: We don't have time for that. If you don't want to come, I can understa
 HUMAN: You know I'm not allowed to leave you out of my sight. 
 RESPONSE: Well, in that case... We should get underway. 
 
-HUMAN: Okay. 
+[t]HUMAN: Okay. 
 RESPONSE: Beats me. Seems that way. Well, he certainly lives up to his reputation. But at least he's handed over our papers. 
 HUMAN: That's good to hear! 
 RESPONSE: You're feeling better, Ganymede? 
@@ -1067,12 +806,10 @@ RESPONSE: Yeah. Just cross one of the bridges, and orient yourself northwest of 
 HUMAN: Alright. 
 RESPONSE: Once you're there, you should see a big, old-style building to your right. That's the Amrynian embassy. I want you to keep a watch over that place. And make note of anyone entering or leaving it. 
 
-HUMAN:
+[t]HUMAN: Where are you going?
 RESPONSE: I have some business to take care of. 
 
-HUMAN:
-RESPONSE: I see... Getting to her won't be easy. 
-HUMAN: What about our man in the parliament? 
+[t]HUMAN: What about our man in the parliament? 
 RESPONSE: He's at odds with Faber, from what I know. 
 HUMAN: Can't they arrange a meeting? 
 RESPONSE: Maybe. I'd rather not activate him, so soon. Let's give him until tomorrow. 
@@ -1123,10 +860,10 @@ RESPONSE: Hm.
 HUMAN: Answer, Atlas. 
 RESPONSE: Remember what you said earlier? About her sister and me? I have to keep an eye on Eury... Because I owe it to her. 
 
-HUMAN:
+[e]HUMAN: I'm supposed to keep an eye on someone.
 RESPONSE: You better go before you lose him. 
 
-HUMAN:
+[e]HUMAN: There's this man called Ruper Sternlein.
 RESPONSE: I see. If Amryn has someone in the administration, it could be problematic. 
 HUMAN: Yeah. What about our people? 
 RESPONSE: We'll have to make find out who's on our side, first. Can you deliver a message for me? 
@@ -1137,7 +874,7 @@ RESPONSE: And while you're there... Would you mind keeping an eye on the custom'
 HUMAN: Can do! 
 RESPONSE: Good. I'll see you later, then. 
 
-HUMAN:
+[t]HUMAN: I'm back.
 RESPONSE: How did it go? 
 HUMAN: He went to the custom's office, but I lost him in there. 
 RESPONSE: I see. If Amryn has someone in the administration, it could be problematic. 
@@ -1150,10 +887,7 @@ RESPONSE: And while you're there... Would you mind keeping an eye on the custom'
 HUMAN: Can do! 
 RESPONSE: Good. I'll see you later, then. 
 
-HUMAN:
-RESPONSE: You better get going. 
-
-HUMAN: I was wondering when you'd show up again. 
+[t]HUMAN: I was wondering when you'd show up again. 
 RESPONSE: It's been a busy couple of days. How's Ganymede? 
 HUMAN: Good, all things considered. 
 RESPONSE: Is he on his way back, already? 
@@ -1168,14 +902,14 @@ RESPONSE: I would say so. You know where he lives?
 HUMAN: Corner house in Farblein Trail. Second floor. 
 RESPONSE: Good. Then let's get it over with. 
 
-HUMAN:
+[e]HUMAN: Hey.
 RESPONSE: Back already? 
 HUMAN: Yeah! 
 RESPONSE: Did you find something? 
 HUMAN: Yup! I trailed a guy from the embassy to Hudsman. He dropped a message just north of it. 
 RESPONSE: What did it say? 
 
-HUMAN: A bunch of numbers. Let me think... 9799... 2345... 7542. Can you make anything of it? 
+[t]HUMAN: A bunch of numbers. Let me think... 9799... 2345... 7542. Can you make anything of it? 
 RESPONSE: I'm not sure. It's been a while since we've gotten hold on one of their books. But I'll check it out. Did you see who's on the other side? 
 HUMAN: Yeah! He went into that house over there. 
 RESPONSE: Oh? 
@@ -1211,27 +945,27 @@ HUMAN: So we're gearing up for war?
 RESPONSE: Not if we can prevent it. Which is why we should keep our eyes on what's in front of us. 
 HUMAN: Right! I totally forgot about that! Thanks, though. 
 RESPONSE: For what? 
-HUMAN: For being honest with me. 
-RESPONSE:
 
-HUMAN: I'm gonna go and keep an eye on him. Be back in a bit. 
+[e]HUMAN: I'm gonna go and keep an eye on him. Be back in a bit. 
 RESPONSE: Good hunting. 
 
-HUMAN:
-RESPONSE: It should be in here. Figures. Think, Atlas. 
+[t]HUMAN: Where's the letter?
+RESPONSE: It should be in here. 
+HUMAN: It's locked.
+RESPONSE: Figures.
 
-HUMAN:
+[t]HUMAN: ...
 RESPONSE: You okay? 
 HUMAN: I'm good. Just... Memories. 
 RESPONSE: I know what you mean. 
 
-HUMAN:
-RESPONSE: Hm? Eury... You bloody idiot. 
+[t]HUMAN: What does the letter say?
+RESPONSE: Eury. you bloody idiot. 
 
-HUMAN:
+[e]HUMAN: What's written on there?
 RESPONSE: Safehouse. 
 
-HUMAN:
+[t]HUMAN: I've met other people, yeah.
 RESPONSE: Describe them to me. 
 HUMAN: Both of them had brown hair. The man was slightly shorter than the woman. He had crimson eyes, hers were deep emerald. 
 RESPONSE: When was the last time you saw them? 
@@ -1244,18 +978,13 @@ RESPONSE: Anybody else asked you any questions about them?
 HUMAN: Not that I can remember. 
 RESPONSE: Alright. Thank you very much for your cooperation. 
 
-HUMAN:
-RESPONSE: Wrong entrance. 
-
-HUMAN: Good morning, Sir! How can I help you? 
+[t]HUMAN: Good morning, Sir! How can I help you? 
 RESPONSE: Is Mr. Faber in? 
-HUMAN: He is. Do you have an appointment? 
-RESPONSE:
 
-HUMAN: What's the meaning of this? Who are you? 
+[t]HUMAN: What's the meaning of this? Who are you? 
 RESPONSE: You know who I am. Don't try to play games with me. 
 
-HUMAN: You're earlier than expected. 
+[t]HUMAN: You're earlier than expected. 
 RESPONSE: More importantly... Would you mind explaining yourself? 
 HUMAN: Excuse me? 
 RESPONSE: You know perfectly well what I'm talking about. 
@@ -1280,7 +1009,7 @@ RESPONSE: Are you listening to me? Whether it's me, or someone else you're havin
 HUMAN: Well, we'll see about that. In any case... I'll need some time to think this over. 
 RESPONSE: You have until six o'clock. Thank you for your time. 
 
-HUMAN: Atlas... 
+[t]HUMAN: Atlas... 
 RESPONSE: Hm? 
 HUMAN: Is there something you'd like to tell me? 
 RESPONSE: What are you talking about? 
@@ -1301,7 +1030,7 @@ RESPONSE: I know you want to run away. Hell, I think everybody does, at this poi
 HUMAN: So that's what it's all about? You want to get me out? 
 RESPONSE: Of course not. That's why I said... It's up to you. 
 
-HUMAN: Are we just gonna stare at each other the entire trip? 
+[t]HUMAN: Are we just gonna stare at each other the entire trip? 
 RESPONSE: You feel like there's something we should talk about? 
 HUMAN: I'm not sure. But the silence is killing me. 
 RESPONSE: We're almost there. 
@@ -1318,36 +1047,15 @@ RESPONSE: For what?
 HUMAN: For being honest with me. 
 RESPONSE: Whatever you say... 
 HUMAN: In any case... I'm grateful. Because you trying to prove a point... Means I get to spend more time with you. 
-RESPONSE: You really are something else... 
-HUMAN: Looks like we're there. So what's it gonna be, Atlas? Who is it? 
-RESPONSE:
+RESPONSE: You really are something else.
 
-HUMAN: Are we just gonna stare at each other the entire trip? 
-RESPONSE: You feel like there's something we should talk about? 
-HUMAN: I'm not sure. But the silence is killing me. 
-RESPONSE: We're almost there. 
-HUMAN: Yeah... So... Have you made up your mind, yet? 
-RESPONSE: Nope. 
-HUMAN: Sometimes you really are an idiot. 
-RESPONSE: What do you mean by that? 
-HUMAN: Who are you doing this for? 
-RESPONSE: I'm doing this for me. Because if I didn't... I'd hate myself. 
-HUMAN: So you're guilt-tripping yourself into this? 
-RESPONSE: Is that a bad thing? 
-HUMAN: I'm not one to judge. Thanks, though. 
-RESPONSE: For what? 
-HUMAN: For being honest with me. 
-RESPONSE: Whatever you say... 
-HUMAN: In any case... I'm grateful. Because you trying to prove a point... Means I get to spend more time with you. 
-RESPONSE: You really are something else... 
-
-HUMAN: Say, I have a question. 
+[t]HUMAN: Say, I have a question. 
 RESPONSE: ... 
 HUMAN: You could at least look at me, you know. 
 RESPONSE: ... 
 HUMAN: Was that so hard? 
 RESPONSE: I thought you wanted to ask me something. 
-HUMAN: Does she know about our little trip? 
+HUMAN: Does she know about our trip? 
 RESPONSE: Not yet. 
 HUMAN: What do you mean by that? 
 RESPONSE: She will find out, eventually. 
@@ -1370,18 +1078,14 @@ RESPONSE: You can still turn back, you know?
 HUMAN: Nope. I've made up my mind. Besides, you never know... Perhaps one day I'll return. 
 RESPONSE: You'd put all of us in danger. 
 HUMAN: That's not what I mean. I am talking about an Ionia that is free. And I know you can see it, too. You and my sister can go on and on about duty as much as you like. But both of you have long realized that you're playing a farce. This system can't be changed from the top. Not behind closed doors. And not on the whim of a man whose only redeeming quality is to be victor of a power struggle. 
-RESPONSE: We've been over that a thousand times already. You were talking about values earlier, remember? There's value in recognizing that you've lost. In the end, we're just trying to survive. There's no point in sacking yourself just on the off chance that someone else might feel bad. And besides... Why would you destroy a world in which you thrive? Don't get me wrong. I'm not enjoying this. I can see the fear in their eyes once they realize who I'm working for. And I've had to do terrible things to people I held dear. But I'm a coward, you see... Take this profession away from me and I'd be nothing. I can work people, because I know they're weak. But in truth, I think I'm the weakest of all of them. They've made a terrible choice once or twice in their life. And we make the ones to make sure that these missteps will continue to haunt them. But me? I've got nothing to lose. Because they made me this way. There's nowhere for me to go but forward, you see? 
-HUMAN: You really are a dumbo, sometimes. How about... Instead of blindly waltzing forward like a machine... You just go wherever the hell you want? 
-RESPONSE:
+RESPONSE: We've been over that a thousand times already. You were talking about values earlier, remember? There's value in recognizing that you've lost. In the end, we're just trying to survive. 
 
-HUMAN: I think this is it. 
-RESPONSE: ... 
+[t]HUMAN: This is it, I think! 
+RESPONSE: Looks like it.
 HUMAN: Time to make up your mind. So... What's it gonna be? Damn, you really are indecisive. 
 RESPONSE: What tells you that I haven't made up my mind already, long ago? 
-HUMAN: Well, if that's the case... Would you mind sharing it with me, then? Who is it? 
-RESPONSE:
 
-HUMAN: Sorry about the disturbance. Would you mind showing me your identification, please? 
+[t]HUMAN: Sorry about the disturbance. Would you mind showing me your identification, please? 
 HUMAN: Of course! Can never be to sure in these trying times, eh? 
 HUMAN: Hm... I'm afraid I must ask you to come with me. 
 RESPONSE: Are you sure about that? 
@@ -1389,10 +1093,8 @@ HUMAN: And who are you?
 RESPONSE: I'm in charge of her. 
 HUMAN: Yes, I've been informed of that. 
 RESPONSE: So? 
-HUMAN: You need to come with me as well. Be advised that I am instructed to use force, if necessary. 
-RESPONSE:
 
-HUMAN: Hm? Yo! I was just on my way back. Did you hear it, too? 
+[e]HUMAN: Hm? Yo! I was just on my way back. Did you hear it, too? 
 RESPONSE: Yeah. Something must've happened at the checkpoint. 
 HUMAN: How do you know? 
 RESPONSE: Our deal in Nestville. 
@@ -1431,22 +1133,18 @@ RESPONSE: Daphne. Let's go.
 HUMAN: Where to? 
 RESPONSE: Trenton Plaza. 
 
-HUMAN: How would I know? 
+[t]HUMAN: How would I know? 
 RESPONSE: Because of who you're working for. 
 HUMAN: If you're implying that it's me... 
 RESPONSE: That's not what I meant. Between the three of us, you're the outsider. And you've been out cold the entire morning, let's not forget. 
 
-HUMAN: East: Eastern Checkpoint South: Old Admirality West: Hudsman Corner 
+[t]HUMAN: East: Eastern Checkpoint South: Old Admirality West: Hudsman Corner 
 RESPONSE: We should finish our business here, first. 
 
-HUMAN: I'm sorry sir, no entry. 
+[t]HUMAN: I'm sorry sir, no entry. 
 RESPONSE: We have an appointment with Mr. Werter. Here's our invitation. 
-HUMAN: Oh, I see. I'll open the gates for you. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: Dorothy? Dotty! 
-HUMAN: Hm? Áron? Sorry... 
+[t]HUMAN: Hm? Áron? Sorry... 
 RESPONSE: It's okay. Are you alright? 
 HUMAN: I guess... 
 RESPONSE: Did they hurt you? 
@@ -1459,8 +1157,8 @@ RESPONSE: Yeah...
 HUMAN: Okay... 
 RESPONSE: Don't worry. I'm not here to question you. On the contrary... I'm the one who's got a confession to make. 
 
-HUMAN: Atlas? Yo! Uhm... Everything okay? 
-RESPONSE: Your face... 
+[t]HUMAN: Atlas? Yo! Uhm. Everything okay? 
+RESPONSE: What happened to you?
 HUMAN: Tanner got a bit overexcited. 
 RESPONSE: Sorry to hear that. 
 HUMAN: It's okay. Not that I mind... But are you sure meeting like this is a good idea? 
@@ -1476,7 +1174,7 @@ RESPONSE: Elysian.
 HUMAN: The safehouse? 
 RESPONSE: Yeah. Let's go. 
 
-HUMAN: It's been three days, already, hm. 
+[t]HUMAN: It's been three days, already, hm. 
 RESPONSE: Feels like yesterday. 
 HUMAN: Yeah. Before we go... There's something I've got to tell you. 
 RESPONSE: It can't wait? 
@@ -1494,37 +1192,8 @@ HUMAN: It's only natural, I think.
 RESPONSE: Because of what I did to Daniil? 
 HUMAN: And because you sold me and my mother out. 
 RESPONSE: If it's an apology you want- 
-HUMAN: Don't make me laugh. We've been through all that a thousand times, already. I don't want another apology. I want you to know the truth. 
-RESPONSE:
 
-HUMAN: It's been three days, already, hm. 
-RESPONSE: Feels like yesterday. 
-HUMAN: Yeah. Before we go... There's something I've got to tell you. 
-RESPONSE: It can't wait? 
-HUMAN: Sorry. But I already waited eight agonizing years. You know that I love you, right? 
-RESPONSE: How would I know? 
-HUMAN: You never asked yourself why I'm so fiercely loyal to you? 
-RESPONSE: Because it's part of your job? 
-HUMAN: I'm serious, Atlas. 
-RESPONSE: Sorry. But I don't believe it. 
-HUMAN: You think I'd make this up? 
-RESPONSE: I'm not questioning your love... But your loyalty. 
-HUMAN: Right. Very good, actually. Let me rephrase the question, then. Why do you think I haven't killed you, yet? 
-RESPONSE: Do you want to kill me? 
-HUMAN: It's only natural, I think. 
-RESPONSE: Because of what I did to Daniil? 
-HUMAN: And because you sold me and my mother out. 
-RESPONSE: If it's an apology you want- 
-HUMAN: Don't make me laugh. We've been through all that a thousand times, already. I don't want another apology. I want you to know the truth. 
-RESPONSE:
-
-HUMAN:
-RESPONSE: No turning back now. 
-
-HUMAN: We need to talk. 
-HUMAN: Is that so? 
-HUMAN: That Tillian guy you sent with us. He's one of Amryn's people. 
-HUMAN: What? Why would you think that? 
+[t]HUMAN: What? Why would you think that? 
 RESPONSE: Because it's true. 
 HUMAN: Atlas? 
 RESPONSE: Tell me... Was it you? 
@@ -1537,7 +1206,7 @@ RESPONSE: As it stands, there are two possibilities. They either got it from Eur
 HUMAN: Hm. I'm quite baffled that you of all people would ask me that question. Seeing as you were the one who brought her to me. 
 RESPONSE: To watch her, yeah. Tell me, then... Where is she? 
 
-HUMAN: Would you mind explaining yourself? 
+[t]HUMAN: Would you mind explaining yourself? 
 RESPONSE: Sorry, Daph. But I had to make sure. 
 HUMAN: Stop speaking in riddles, already. 
 RESPONSE: You asked me why I didn't turn Eury in, right? n<AtlasIt's true. I have to protect her. But not from us. Pravoskos told you, didn't he? We needed to put up a show for Eury. So she could get close to Lorentz. 
@@ -1557,82 +1226,13 @@ HUMAN: Yeah. It was fun, while it lasted... But I already got what I wanted from
 RESPONSE: Alright. I'll file the papers once we get back. 
 HUMAN: Okay. Something still bothers me, though. 
 RESPONSE: What? 
-HUMAN: I don't know... It just feels like I don't know who to trust, anymore. 
-RESPONSE: Welcome to my world. The bad news is, you'll never get used to| it. But we can try, at least. Looks like they're ready. You want to see this? 
-HUMAN: Yeah. Let's get it over with. 
-RESPONSE:
 
-HUMAN: Would you mind explaining yourself? 
-RESPONSE: Sorry, Daph. But I had to make sure. 
-HUMAN: Stop speaking in riddles, already. 
-RESPONSE: You asked me why I didn't turn Eury in, right? n<AtlasIt's true. I have to protect her. But not from us. Pravoskos told you, didn't he? We needed to put up a show for Eury. So she could get close to Lorentz. 
-HUMAN: And? Did she find him? 
-RESPONSE: Not yet. But they've set up a meeting. 
-HUMAN: Where? 
-RESPONSE: An appartment in Stuart Alley. 
-HUMAN: And you think he's really here? 
-RESPONSE: He has to be. His fingerprints are all over Amryn's movements Including Ganymede. 
-HUMAN: Yeah. You were right about him. 
-RESPONSE: He really was working for Lorentz, then? 
-HUMAN: All the signs are pointing to it. 
-RESPONSE: A shame. He's a very bright young man. 
-HUMAN: Some people can't be trusted, I guess. 
-RESPONSE: Right. You want to send him back? 
-HUMAN: Yeah. It was fun, while it lasted... But I already got what I wanted from him. 
-RESPONSE: Alright. I'll file the papers once we get back. 
-HUMAN: Okay. Something still bothers me, though. 
-RESPONSE: What? 
-HUMAN: I don't know... It just feels like I don't know who to trust, anymore. 
-RESPONSE: Welcome to my world. The bad news is, you'll never get used to| it. But we can try, at least. Looks like they're ready. You want to see this? 
-HUMAN: Yeah. Let's get it over with. 
-RESPONSE:
-
-HUMAN: And I'm telling you that you can't trust these guys. You know what they did to that one guy they arrested, right? 
-RESPONSE:
-
-HUMAN: This should be it. Hm... Looks like he's not in, yet. 
-HUMAN: Hey! You need something from the Colonel? 
-HUMAN: Yeah. 
-HUMAN: Well, tough luck. He left like an hour ago. 
-HUMAN: Damn. 
-HUMAN: Say, have we met before? 
-HUMAN: Not that I can think of. 
-HUMAN: Hm... Might just be my mind playing tricks on me, then. In any case... I'm Herbert. 
-HUMAN: Theodore. 
-HUMAN: You want me to relay a message to the Colonel? 
-HUMAN: Thanks, but it's fine. I don't mind waiting. 
-HUMAN: Alright. I'll get back to work, then. 
-HUMAN: Don't let me keep you. 
-HUMAN: Was nice meeting you, Theodore. I totally forgot! I'm terribly sorry... But we've been having an influx on new people, lately. So the Colonel asked me to conduct a check on all the personnel. 
-HUMAN: Oh? 
-HUMAN: Would you mind showing me your identification, real quick? 
-HUMAN: Not at all. 
-HUMAN: Thank you. Let's see... Theodore Harrington... Wait a second... Are you related to Freddy? 
-HUMAN: Freddy? 
-HUMAN: Frederick Harrington. Tall, blonde guy. 
-HUMAN: Oh! No, I don't think so. At the very least, I never met him. 
-HUMAN: Oh, okay then. You're from Trachi proper? 
-HUMAN: Born and raised. 
-HUMAN: Uh-huh. That's quite curious. 
-HUMAN: How so? 
-HUMAN: Well, your accent reminds me a bit of the countryside. 
-HUMAN: Is that so? The truth is... Both of my parents are from Verin. They moved here a few years before I was born. 
-HUMAN: Oh! That explains it. Hm... When were these papers issued? 
-HUMAN: Uhh... I don't remember the exact date. But it must've been a week, or two ago. 
-HUMAN: Hmm. I might be wrong... But looks like the identification is based on an old numbering system. I'm sorry, but I'll have to check up on this. 
-HUMAN: Of course. 
-HUMAN: Would you come with me, please? 
-HUMAN: Well... I'm not sure the Colonel would appreciate my report being delayed. 
-HUMAN: No need to worry about that. Should just take a moment. 
-HUMAN: Alright... If you insist. 
-RESPONSE:
-
-HUMAN: You really think that's going to work? 
+[t]HUMAN: You really think that's going to work? 
 RESPONSE: Sorry. Old habits die hard, I guess. 
 HUMAN: Come on, Atlas. I know you're tired and all. But I really can't take it anymore! 
 RESPONSE: Right. Let's get this over with. 
 
-HUMAN: HEY! 
+[t]HUMAN: HEY! 
 RESPONSE: Hm? 
 HUMAN: You okay? 
 RESPONSE: Yeah. Just... memories. 
@@ -1641,44 +1241,24 @@ RESPONSE: Are we ready?
 HUMAN: Yup. We got him cornered. The kill is yours. 
 RESPONSE: Alright. Let's finish this. 
 
-HUMAN:
-RESPONSE: No turning back now. 
-
-HUMAN: Back in the sewers. 
+[e]HUMAN: Back in the sewers. 
 RESPONSE: You going to be alright? 
 HUMAN: Yeah. Where are we headed? 
 RESPONSE: Eastwards. Just follow the trail until we're at the end. 
-HUMAN: Alright. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: It's west of here. 
-
-HUMAN:
+[t]HUMAN: I'm sorry?
 RESPONSE: Watch your step. 
 HUMAN: How much further? 
 RESPONSE: Almost there. 
-HUMAN: Gany! 
-RESPONSE:
 
-HUMAN:
+[t]HUMAN: Let's go.
 RESPONSE: Wait. 
 HUMAN: What's wrong? 
-RESPONSE: There should be a patrol passing through here, any minute. See that door to your right? There's a maintenance area in there. 
+RESPONSE: There should be a patrol passing through here, any minute. 
+HUMAN: We should hide!
+RESPONSE: See that door to your right? There's a maintenance area in there. 
 
-HUMAN:
-RESPONSE: We should finish our business here, first. 
-
-HUMAN:
-RESPONSE: Let's talk to him later. 
-
-HUMAN:
-RESPONSE: No time to waste. 
-
-HUMAN:
-RESPONSE: No need to intrude. 
-
-HUMAN: Sorry to keep the two of you waiting. He put up way more resistance than I thought. 
+[t]HUMAN: Sorry to keep you waiting. He put up more resistance than I thought. 
 RESPONSE: Don't worry about it. How is he? 
 HUMAN: Sleeping like a baby! 
 RESPONSE: Good. 
@@ -1693,15 +1273,8 @@ HUMAN: You know your way through the sewers?
 RESPONSE: Yeah. I've taken that route a few times, before. 
 HUMAN: Okay. I'll stay here and keep an eye on Drenem. Good luck to you! 
 RESPONSE: Thanks. For everything. 
-HUMAN: Don't worry about it. I'm just doing my job! 
-RESPONSE:
 
-HUMAN:
-RESPONSE: We've got no time to waste. 
-
-HUMAN:
-RESPONSE: What's wrong? 
-HUMAN: Nothing. 
+[t]HUMAN: Nothing. 
 RESPONSE: You sure? 
 HUMAN: Yeah. 
 RESPONSE: Okay. 
@@ -1723,11 +1296,9 @@ HUMAN: That's not what I mean. At this point... You probably figured out how I w
 RESPONSE: Gany... 
 HUMAN: I know. 
 RESPONSE: What do you want me to do? 
-HUMAN: I was briefed on you, you know... Not the full story, of course. But I know there was a girl. She was more important to you than anything else in the world. So tell me... What was she like? 
-RESPONSE:
 
-HUMAN:
-RESPONSE: And that's the gist of it. 
+[t]HUMAN: Is that everything you know.
+RESPONSE: It's the gist of it. 
 HUMAN: Okay. That explains a lot. But to be frank... I didn't expect you to have a side like this. 
 RESPONSE: Sorry to burst your bubble. But I'm only human, after all. 
 HUMAN: Don't worry about it. I think it's adorable in some way. And I can definitely emphasize with it. It'll do. 
@@ -1760,22 +1331,15 @@ HUMAN: You know what... One day I'll kill you.
 RESPONSE: Feel free to try. But for now... It's mutual assured destruction. 
 HUMAN: Solid finish. Alright. Let's do this. 
 RESPONSE: Right. See you in a few. 
-HUMAN: See you in a few. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: Nothing for us up there. 
-
-HUMAN:
-RESPONSE: Any minute, now. 
-HUMAN: Why didn't you tell us? 
+[t]HUMAN: Why didn't you tell us? 
 RESPONSE: Because it doesn't matter. If Solka's dealt with... Ionia will be gone from this place in a few hours. 
 HUMAN: Are you sure about that? 
 RESPONSE: One hundred percent. Their colonel is on leave. And no one's left to lead his troops into battle. 
 HUMAN: I do hope you're right. What about your associates? 
 RESPONSE: One of them's already compromised. The other one... Will hardly be able to do anything on her own. In other words... It's over. 
 
-HUMAN: Lorna? 
+[t]HUMAN: Lorna? 
 RESPONSE: Sorry, Eury. I didn't know you were home, already. 
 HUMAN: I can imagine. So? Why are you here? 
 RESPONSE: There's a few things I need to get rid of. It won't take long, I promise. 
@@ -1784,23 +1348,21 @@ RESPONSE: Sorry. But it's in your interest, too.
 HUMAN: The sheer guts on you. If it wasn't for her... I'd kill you just for that. 
 RESPONSE: If that makes you happy. Go ahead. But I'm in a bit of a rush, you see. So if you really want to do it... Do it now. I thought as much. 
 
-HUMAN: If you think I'd let you touch anything in that room- 
+[e]HUMAN: If you think I'd let you touch anything in that room- 
 RESPONSE: I'm sorry, but I have to. 
 HUMAN: Give me the list. I'll do it. 
 RESPONSE: Can I trust you? 
 HUMAN: You said it yourself. My life is on the line, as well. 
 RESPONSE: Alright. 
 
-HUMAN:
+[t]HUMAN: I'll take care of it.
 RESPONSE: Make sure to burn everything. 
 HUMAN: Thank you. But as you might remember... I've done these kind of things before. 
 RESPONSE: Right, sorry. Feels like it's been ages since- 
 HUMAN: Listen Atlas. There's nothing for us to say to each other. Ever again. 
 RESPONSE: Okay. Farewell, Eury. 
-HUMAN: You too... Áron. 
-RESPONSE:
 
-HUMAN: Where the hell have you been? 
+[t]HUMAN: Where the hell have you been? 
 RESPONSE: You've heard the news? 
 HUMAN: Yeah. The sheer guts on you... Showing yourself here. 
 RESPONSE: I had to. Don't you agree? 
@@ -1814,27 +1376,8 @@ HUMAN: How convenient! You've always been a tool. But the one time you make a ch
 RESPONSE: I am sorry. Beyond all measure. Lorna was very dear to me. 
 HUMAN: And that's what makes it really sting... You've got nothing else to say? 
 RESPONSE: There's a lot of things... But I don't think it's gonna change anything. The only reason why I'm here is because I owe it to you and her. 
-HUMAN: You say that, but you can't even tell me truth. Then again... It's all the same to you, isn't it? I always knew it. Deep down, you don't care about anybody but yourself. Lorna refused to believe it. And so she died for you. Get out. And for your sake... Hope that the two of us never meet again. 
-RESPONSE:
 
-HUMAN: Look who it is. 
-RESPONSE: You've heard the news? 
-HUMAN: Yeah. The sheer guts on you... Showing yourself here. 
-RESPONSE: I had to. Don't you agree? 
-HUMAN: So... Are you proud of yourself? 
-RESPONSE: What do you mean by that? 
-HUMAN: You've finally taken her from me. And now... You can't even give her back anymore. 
-RESPONSE: Eury... 
-HUMAN: Did you even realize... She loved you, damn it! And I trusted you, as well. Answer me one thing, Atlas. Was the entire thing your idea? Did you think you could just run off with her? Or did you just her as a footnote in your CV? What was it, Atlas? 
-RESPONSE: You know I cannot talk about that. 
-HUMAN: How convenient! You've always been a tool. But the one time you make a choice... You get my little sister killed. 
-RESPONSE: I am sorry. Beyond all measure. Lorna was very dear to me. 
-HUMAN: And that's what makes it really sting... You've got nothing else to say? 
-RESPONSE: There's a lot of things... But I don't think it's gonna change anything. The only reason why I'm here is because I owe it to you and her. 
-HUMAN: You say that, but you can't even tell me truth. Then again... It's all the same to you, isn't it? I always knew it. Deep down, you don't care about anybody but yourself. Lorna refused to believe it. And so she died for you. Get out. And for your sake... Hope that the two of us never meet again. 
-RESPONSE:
-
-HUMAN:
+[t]HUMAN: Should we get to know each other better?
 RESPONSE: How about we skip that part and get to it? 
 HUMAN: You don't make the rules here. 
 RESPONSE: True. But you are aware that you can't work me like this, right? 
@@ -1847,20 +1390,16 @@ RESPONSE: Has this been cleared with my CO?
 HUMAN: That's none of your concern. 
 RESPONSE: Alright. Have it your way, then. But until I see something official, I can't share any details with you. 
 
-HUMAN:
-RESPONSE: You're kidding me. 
-HUMAN: I wish I was. But I'm afraid the situation is far too dire for that. 
+[t]HUMAN: I wish I was. But I'm afraid the situation is far too dire for that. 
 RESPONSE: What did you do to her? 
 HUMAN: I merely explained to her the ramifications of this incident. On each and everyone of us. 
 RESPONSE: Did you mention that the entire thing was your idea, too? 
 HUMAN: Of course I didn't. But if you want, I'll go and tell her right now. I'm sure the interrogators would love to get that out of her, as well. 
 RESPONSE: Let me speak to her, then. 
 HUMAN: You know that's impossible. I already took a huge risk coming here. There's no way I'll let you endanger everything. 
-RESPONSE: Always looking out for yourself, aren't you? 
-HUMAN: It's for your sake, too. And Eury's. All of us are implied in a serious breach of protocol. Some might even say... Treason. Which is ridiculous, of course. You were merely investigating a case of attempted desertion within the military. The person in question being a Corporal named Lorna Faragó, born on the 5th May, 1897. To confirm your suspicions, you accompanied said Corporal all the way to the checkpoint near the city of Calpoli. Your investigation was interrupted by two officials of the military. Obviously they were not aware of your intentions. So they apprehended both you and Lorna. In the course of being questioned... Lorna revealed that she, in fact, intended to desert. So, even though the military acted too rashly... They are to be commended on their efforts of keeping their own troops in line. As a member of EnKAD, I am deeply troubled by the sheer audacity to abandon Ionia in such a cowardly fashion. However, I also personally believe that this incident can and should be used as an appeal to further consolidate the executive branches of Ionia. Is that agreeable to you? Atlas... She is dead, no matter what. There's nothing either of us can do to change that. We took a chance... And we lost. Lorna is willing to take the fall for us. And I know you would do the same for her. So please, I implore you... Don't let her sacrifice go in vain. 
-RESPONSE:
+RESPONSE: Always looking out for yourself, aren't you?
 
-HUMAN: See? I told you he'd show up. 
+[e]HUMAN: See? I told you he'd show up. 
 RESPONSE: Orpheus. 
 HUMAN: Atlas. 
 RESPONSE: Eury. I found your message. 
@@ -1881,26 +1420,14 @@ RESPONSE: You have it with you?
 HUMAN: Yup. 
 RESPONSE: Let me see it. I'll kill him. 
 
-HUMAN: Another one, really? Well, time's a wasting! 
+[t]HUMAN: Another one, really? Well, time's a wasting! 
 RESPONSE: Don't get your hopes up. 
 
-HUMAN: Whoops! 
+[t]HUMAN: Whoops! 
 RESPONSE: Stop right there! 
 
-HUMAN:
-RESPONSE: There's nothing left for us to do here. 
-
-HUMAN: Another one, really? Well, time's a wasting! 
-RESPONSE: Don't get your hopes up. 
-
-HUMAN: Whoops! 
-RESPONSE: Stop right there! 
-
-HUMAN:
-RESPONSE: There's nothing left for us to do here. 
-
-HUMAN: It was Solka, wasn't it? 
-RESPONSE: I'm afraid we can't disclose that. 
+[t]HUMAN: It was Solka, wasn't it? 
+RESPONSE: I'm afraid I can't disclose that. 
 HUMAN: I should've known. Oh well, not like it matters anymore. You've spoken to her, then? 
 RESPONSE: Yes. 
 HUMAN: How is she? 
@@ -1925,7 +1452,7 @@ RESPONSE: I'm glad you see it that way, too. Alright. Just for the sake of compl
 HUMAN: That won't be necessary. I'm well aware of your methods. 
 RESPONSE: Good. I think that concludes our negotiations. Thank you for your cooperation. We'll be in touch. Let's go. 
 
-HUMAN: I'm not sure I understand. You want me to plan those mines? 
+[e]HUMAN: I'm not sure I understand. You want me to plan those mines? 
 RESPONSE: Exactly. 
 HUMAN: I fail to see how that serves your purpose. 
 RESPONSE: Because there is a war at hand. And if those waters are safe, you'll have the Ionian Navy right on your doorstep. 
@@ -1943,15 +1470,11 @@ HUMAN: I don't get it.
 RESPONSE: Contrary to what we've discussed here... We'll ask you to stop any deployment of the mines. 
 HUMAN: Oh! So it's like that, hm? You're a double agent! 
 RESPONSE: Whatever you might think. This conversation here... Never took place. 
-HUMAN: Wow. You really are something else. 
-RESPONSE:
 
-HUMAN:
-RESPONSE: Looks like they left their clothes here. 
+[e]HUMAN: What's in there?
+RESPONSE: Just a bunch of clothes.
 
-HUMAN:
-RESPONSE: Daph? 
-HUMAN: Atlas? 
+[t]HUMAN: Atlas? 
 RESPONSE: Sorry I'm late. 
 HUMAN: Yeah, about that... Care to tell me where the fuck you've been? 
 RESPONSE: It's a long story. And we don't have a lot of time. 
@@ -1980,7 +1503,7 @@ RESPONSE: Isn't that what I've been doing, the entire time?
 HUMAN: You know how it is. It's the climax that counts! 
 RESPONSE: Right. Let's go. 
 
-HUMAN:
+[t]HUMAN: Hi.
 RESPONSE: Welcome back. 
 HUMAN: Atlas? 
 RESPONSE: Daphne. How's your back? 
@@ -2025,24 +1548,24 @@ RESPONSE: To cover you. And the story you'll tell them.
 HUMAN: Alright. Let's hear it. 
 RESPONSE:
 
-HUMAN: You're out of your mind if you think I'm helping you with that! 
-RESPONSE: It's up to you, ultimately. 
+[e]HUMAN: You're out of your mind if you think I'm helping you with that! 
+RESPONSE: It's up to you. 
 HUMAN: But? 
 RESPONSE: Hermingrad. 
 HUMAN: Atlas... You promised! 
 RESPONSE: As I said... No more qualms. You hurt me, Daph. And you broke my trust. So from now on... You're nothing but a chess piece to me. I will use you. And abuse you. Until there's nothing left of you but dust. 
 
-HUMAN:
-RESPONSE: You okay? 
+[e]HUMAN: ...
+RESPONSE: You okay?
 HUMAN: Yeah. 
 RESPONSE: Good. Want to go first? 
 HUMAN: Mhm. Just... Give me a second. 
 RESPONSE: Take your time. 
 
-HUMAN:
-RESPONSE: Do yourself a favour. Don't rush it. 
+[t]HUMAN: I'm a bit scared.
+RESPONSE: Take it slow and easy. 
 
-HUMAN: Good day to you! How may I help? 
+[t]HUMAN: Good day to you! How may I help? 
 RESPONSE: I'd like to inquire about the status of a request me and my companions filed earlier. 
 HUMAN: Certainly! Your name, if you'd be so kind? 
 RESPONSE: Julius Gaston. 
@@ -2052,17 +1575,8 @@ HUMAN: Wait, please! It's a long shot... But I could check the archives, if you 
 RESPONSE: That would be very forthcoming, thank you. 
 HUMAN: I'll be right back! Unfortunately, there doesn't seem to be any sign of the request there, either... I'm very sorry! 
 RESPONSE: There's no need. Thank you, once more, for your dedication. Have a nice day. 
-HUMAN: Y-you too! 
-RESPONSE:
 
-HUMAN: Salutations, Mister! How can I help you? 
-RESPONSE: We've been told we'd need a visa to enter Trachi. 
-HUMAN: Quite right! If you're not a citizen, that is! I just need each of you to fill out these forms here and here... Coupled with appendices 4 and 5. 
-HUMAN: All thirteen pages? 
-HUMAN: As you said it. Feel free to take a seat over there, if you want. Fifteen minutes later... 
-HUMAN: Were you ever convicted? "What does the insignia of Trachi depict?" "Underscore the prime numbers in the following list." Is there a system to these questions, at all? 
-HUMAN: Apart from trying to provoke a killing spree, you mean? 
-HUMAN: It's deliberate, isn't it? 
+[e]HUMAN: It's deliberate, isn't it? 
 RESPONSE: You saw the queue at the gates, didn't you? 
 HUMAN: So they're trying to filtering people with this? 
 RESPONSE: And delay the others. 
@@ -2077,10 +1591,8 @@ RESPONSE: You've made your point.
 HUMAN: If they're so keen on cooperating, why pull a stunt like this? 
 RESPONSE: Either way, musing on it won't help. Another fifteen minutes pass... 
 HUMAN: I feel personally violated. 
-HUMAN: And utterly exhausted, at that. 
-RESPONSE:
 
-HUMAN: Hello again! 
+[t]HUMAN: Hello again! 
 RESPONSE: There you go. 
 HUMAN: Wonderful! 
 RESPONSE: We're a bit short on time, I'm afraid... And would really appreciate if there are no further delays. 
@@ -2088,63 +1600,22 @@ HUMAN: Apologies for the inconvenience. Verification should only take a moment. 
 RESPONSE: Right. 
 HUMAN: Born on the 7th September, 1894 in Mavrochori? 
 RESPONSE: Exactly. 
-HUMAN: I'm afraid there's a problem. 
-RESPONSE:
 
-HUMAN: Wakey wakey! 
-HUMAN: ... Daph? 
-HUMAN: I missed you. How are you holding up? 
-HUMAN: I'm not sure what kind of answer you're expecting. But I'm alright, I guess. 
-HUMAN: Glad to hear it. 
-HUMAN: So? What's on the menu? 
-HUMAN: Well, I'm happy you enjoyed the appetizer. And I think we're both ready for the main course. 
-HUMAN: Atlas? 
-RESPONSE: Hello, Ganymede. 
+[t]HUMAN: Atlas? 
+RESPONSE: Hello. 
 HUMAN: How nice of you to join in on the fun! Ouch... That one kinda hurt, you know. 
 RESPONSE: Shut up! 
 HUMAN: Or what? 
 RESPONSE: For the record... I'm sorry. 
-HUMAN: Nice try! But that won't work anymore. Come on Gany. Look. At him. Hello? 
-HUMAN: What the fuck?! 
-HUMAN: Awww. Is it getting too much for you? 
+HUMAN: What the fuck?!
 RESPONSE: Tell me. Where is he? 
 HUMAN: Jesus fucking christ! How do you think I would know?! 
-RESPONSE: Answer! 
-HUMAN: I don't know! 
-HUMAN: Three down... Seven to go. I hope you'll last through all of them. You know what comes after that, right? 
-HUMAN: Steady. Breathe. Did it work? Good. Funny. Alright. Sorry for putting you through this. But for some reason, I'm dragging you into this place with me. And I think you can understand... That I'd rather be here than there, right now. But let's forget about that for a moment, okay? Because there's more important matters at hand. I was about to ask if you enjoy seeing this kind of stuff. But to be honest, it's all the same to me. For all I know, you are either a god... Or just a voice in my head. That, too, doesn't really matter. Because you're there. And that means the world to me. Alright. Time for me to go back. I wonder how many fingers they've left intact. Man, that shit is going to hurt for months... Then again, what's a few broken bones for an entire city? And besides... I think it's time for everyone to find out, anyway. Including you, of course! 
-RESPONSE:
+RESPONSE: Answer!
 
-HUMAN: Wakey wakey! 
-HUMAN: ... Daph? 
-HUMAN: I missed you. How are you holding up? 
-HUMAN: I'm not sure what kind of answer you're expecting. But I'm alright, I guess. 
-HUMAN: Glad to hear it. 
-HUMAN: So? What's on the menu? 
-HUMAN: Well, I'm happy you enjoyed the appetizer. And I think we're both ready for the main course. 
-HUMAN: Atlas? 
-RESPONSE: Hello, Ganymede. 
-HUMAN: How nice of you to join in on the fun! Ouch... That one actually hurt, you know. 
-RESPONSE: Shut up! 
-HUMAN: Or what? 
-RESPONSE: For the record... I'm sorry. 
-HUMAN: Nice try! But that won't work anymore. Come on Gany. Look. At him. Hello? 
-HUMAN: !!! What the fuck?! 
-HUMAN: Awww. There you are! 
-RESPONSE: Tell me. Where is he? 
-HUMAN: Jesus fucking christ! How do you think I would know?! 
-RESPONSE: Answer. 
-HUMAN: I don't know! !! 
-HUMAN: Three down... Seven to go. I hope you'll last through all of them. You know what comes after that, right? 
-HUMAN: Steady. Breathe. And go! It worked? Good stuff. Funny. Damn. I was hoping I could buy us a bit more time. Anyways, I'm sorry for putting you through this. But for some weird reason, I seem to pull you into this place with me. And I think you can understand... That I'd rather be here than there, right now. But let's forget about that for a moment, okay? So tell me, what's on your mind? Alright, I gotta go back. But don't worry. I think it's time for everyone to find out, anyway. Including you, of course! Come on. I don't know how many hours we've spent together, by now. And you know a lot more about me than I know about you. It's a shame, really. I wish we could interact more. As I said... It's my safe haven. The place I call home. Normally, I'd be alone here. But for some reason you're with me. Why, I wonder... Yeah, they're really working me. But I guess I shouldn't be surprised. These two are feared for a reason. I'm sorry. But for now, we got to live with it. If everything goes right... The two of us will have a lot of time to talk. Hmm... I think you're right. Really? You're already running out of topics? In all seriousness, though... I'm glad you're with me. 
-RESPONSE:
-
-HUMAN:
+[t]HUMAN: What about this guy?
 RESPONSE: We're done with him. 
-HUMAN: I should go and see Lily. 
-RESPONSE:
 
-HUMAN: Wait. 
+[t]HUMAN: Wait. 
 RESPONSE: Hm? 
 HUMAN: There's something I got to ask you. 
 RESPONSE: Go ahead. 
@@ -2160,39 +1631,15 @@ HUMAN: Can't say I agree with your motives. But alright.
 RESPONSE: Anything else? 
 HUMAN: Nope. I'm good. 
 RESPONSE: Okay. Let's go and see Gany. 
-HUMAN: Right. He's in the archives, down in the basement. 
-RESPONSE:
 
-HUMAN: Atlas. 
-RESPONSE: Orpheus. 
-HUMAN: Eury. 
-HUMAN: Daph. 
-HUMAN: Now that we're all here. Let's talk terms. 
-HUMAN: You think so? I was rather hoping you'd put up more of a fight. 
-HUMAN: Sorry to disappoint you. But there's no need for me to resist. You've got my brother, don't you? 
-HUMAN: What's left of him, anyway. 
-HUMAN: I figured as much. So... What do you want? 
-HUMAN: Well, for starters... You're gonna come with us. We'll haul both of you back to Ionia. And then, we'll squeeze every little detail out of you, your precious little brother... And that bitch of yours. 
-HUMAN: Oh my. So confident. Reminds me of myself when I was your age. 
-HUMAN: With one key difference... I never lost. 
-HUMAN: Really? Are you sure about that? 
-RESPONSE:
-
-HUMAN: I see. That is... disappointing. But it doesn't change anything. 
-HUMAN: That's right. You'll join him, soon, anyway. 
-HUMAN: I don't think so. 
-HUMAN: Really? And why would that be? 
-HUMAN: You still grasped it? You're outnumbered. 
-HUMAN: I can count well enough, thank you very much. 
-RESPONSE: Put it down, Daph. 
+[e]HUMAN: Are you sure about that?
+RESPONSE: Put it down. 
 HUMAN: Atlas? 
 RESPONSE: Sorry. But I mean it. 
 HUMAN: This isn't funny. 
 RESPONSE: It isn't. Drop it, now! 
-HUMAN: Why? 
-RESPONSE:
 
-HUMAN:
+[t]HUMAN: Hyperion?
 RESPONSE: He set it all up. From start to finish. Every piece of the puzzle, right there... Apart from one thing. How did Hyperion know that Lorna wanted to run away? I had no clue. And neither did Eury. Lorna never told any of us. Did she? 
 HUMAN: Hm. You got me right there. It's weird isn't it? She made me promise not to tell either of you. You know why? Because as much as both of you loved her... You never really listened to anything she said. Of all the people in the world... I was the only one who knew what she was going through. And yeah. I told Hyperion. 
 RESPONSE: What did you tell him? 
@@ -2214,33 +1661,23 @@ HUMAN: What?!
 RESPONSE: You heard me. It's public knowledge, now. 
 HUMAN: Are you insane? If Amryn gets wind of that- 
 RESPONSE: They'll declare war on Ionia. 
-HUMAN: You'd go this far, just for her? 
-HUMAN: She was right, you know. Ionia is a monstrosity. 
-HUMAN: As if Amryn were any better. 
-RESPONSE: Who said anything about Amryn? 
-HUMAN: Huh? Who's paying your bills then? 
-HUMAN: No one. You said it yourself. People like us can't help ourselves. Just like this city... We want to be free. 
-HUMAN: This just gets better and better. You think you can cause a war and get away with it? The entire IIS will be up your arse in a week! 
+HUMAN: You think you can cause a war and get away with it? The entire IIS will be up your ass in a week! 
 RESPONSE: We'll see about that. Just keep in mind that we have a list. And your name's on it, too. 
 HUMAN: Now that's more like it. Alright, let's have it your way. 
 RESPONSE: Sorry, Daph. It's nothing personal. 
 HUMAN: Right. I'll remind you of that when I come back and put this city to the torch. 
 RESPONSE: Feel free to. Not today, though. 
-HUMAN: Yeah. Not today. 
-RESPONSE:
 
-HUMAN: Damn. I missed... 
+[t]HUMAN: Damn. I missed... 
 RESPONSE: Eury! 
-HUMAN: I'll go and fetch a doctor! 
 HUMAN: Don't bother. I think I'm done for, anyway. 
 RESPONSE: Don't say that. I refuse to let you go. 
 HUMAN: It's a bit late for that, isn't it? But I do appreciate the sentiment. 
 RESPONSE: Stop the melodramatic bullshit, already! You'll live, you hear me?! 
-HUMAN: Thank you for everything, the two of you. And don't worry about me, too much. After all these years... I can finally apologize to her. 
 HUMAN: Atlas! Don't. We'll need her. 
 RESPONSE: You're right. Don't wait for me. 
 
-HUMAN: Shit! 
+[e]HUMAN: Shit! 
 RESPONSE: What's wrong? 
 HUMAN: Did you see my pants anywhere? 
 RESPONSE: Seriously? 
@@ -2260,3 +1697,4 @@ HUMAN: Right before she left, yeah.
 RESPONSE: I see. Want me to go and fetch your stuff for you? 
 HUMAN: Nah, it's fine. Seeing you might just rile her up even more. 
 RESPONSE: 
+

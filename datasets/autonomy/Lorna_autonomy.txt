@@ -1,4 +1,4 @@
-
+[t]
 HUMAN: Where are you going?
 RESPONSE: Aren't we supposed to go from west to east? 
 HUMAN: Did you hear that? 
@@ -8,30 +8,30 @@ RESPONSE: I thought you'd never ask. Alright. Listen up, whoever's in there! Eit
 HUMAN: Or?
 RESPONSE: Or we'll have to force our way through!
 
-HUMAN: I refuse.
+[t]HUMAN: I refuse.
 RESPONSE: Well, looks like you won't have a front door anymore! 
 
-HUMAN: You kicked the door in?
+[t]HUMAN: You kicked the door in?
 RESPONSE: I'll take point. 
 
-HUMAN: What's wrong?
+[e]HUMAN: What's wrong?
 RESPONSE: Uhm... Not that it's my business or anything... But aren't we supposed to search their homes? 
 HUMAN: You're right. Looks like I've forgotten that one. 
 RESPONSE: Is that so? Unfortunate. 
 
-HUMAN: ...
+[t]HUMAN: ...
 RESPONSE: HEY! Not dozing off in the middle of a mission, are we? Seriously... 
 HUMAN: Like there's a point in rushing things... This place is cordoned off, anyway. 
 RESPONSE: Whatever you say~ But can we at least take shelter somewhere? It's pouring like crazy, if you haven't noticed! 
 HUMAN: Yeah. Let's keep checking those houses. 
 RESPONSE: Righto! 
 
-HUMAN: Another door.
+[t]HUMAN: Another door.
 RESPONSE: Really? Well, time's a wasting! 
 HUMAN: Don't get your hopes up. 
 RESPONSE: Whoops! 
 
-HUMAN: Lonra?
+[t]HUMAN: Lonra?
 RESPONSE: Wait. 
 HUMAN: What's wrong? 
 RESPONSE: I know I shouldn't be asking this. 
@@ -42,19 +42,19 @@ RESPONSE: Overheard, more like. He screamed his lungs out, if you hadn't noticed
 HUMAN: Yeah... Some people do that. 
 RESPONSE: What about you? 
 
-HUMAN: Where did he go?
+[e]HUMAN: Where did he go?
 RESPONSE: The window! I'll go after him. 
 HUMAN: I don't think splitting up is a good idea. But we don't really have a choice. 
 RESPONSE: Right. I'll be back in a second. 
 
-HUMAN: You're back already. 
+[t]HUMAN: You're back already. 
 RESPONSE: Yup. Couldn't find a damn thing back there. A few scraps of cloth, and a bit of blood. But nothing else. 
 HUMAN: Doesn't matter. We got what we came for. 
 RESPONSE: That's good news, I guess. 
 HUMAN: Yup. Let's head back and report. 
 RESPONSE: Yeah. 
 
-HUMAN: Hm? 
+[t]HUMAN: Hm? 
 RESPONSE: Is there something you'd like to tell me? 
 HUMAN: What are you talking about? 
 RESPONSE: Jesus... Do you think I'm stupid? 
@@ -73,7 +73,7 @@ RESPONSE: Atlas... Stop speaking in riddles, already!
 HUMAN: I know you want to run away. Hell, I think everybody does, at this point. 
 RESPONSE: So that's what it's all about? You want to get me out? 
 
-HUMAN: What's wrong?
+[t]HUMAN: What's wrong?
 RESPONSE: Are we just gonna stare at each other the entire trip? 
 HUMAN: You feel like there's something we should talk about? 
 RESPONSE: I'm not sure. But the silence is killing me. 
@@ -94,7 +94,7 @@ RESPONSE: In any case... I'm grateful. Because you trying to prove a point... Me
 HUMAN: You really are something else... 
 RESPONSE: Looks like we're there. So what's it gonna be, Atlas? Who is it? 
 
-HUMAN: I don't know.
+[t]HUMAN: I don't know.
 RESPONSE: You could at least look at me, you know. 
 HUMAN: Okay.
 RESPONSE: Was that so hard? 
@@ -125,16 +125,16 @@ RESPONSE: That's not what I mean. I am talking about an Ionia that is free. And 
 HUMAN: We've been over that a thousand times already. You were talking about values earlier, remember? There's value in recognizing that you've lost. In the end, we're just trying to survive. There's no point in sacking yourself just on the off chance that someone else might feel bad. And besides... Why would you destroy a world in which you thrive? Don't get me wrong. I'm not enjoying this. I can see the fear in their eyes once they realize who I'm working for. And I've had to do terrible things to people I held dear. But I'm a coward, you see... Take this profession away from me and I'd be nothing. I can work people, because I know they're weak. But in truth, I think I'm the weakest of all of them. They've made a terrible choice once or twice in their life. And we make the ones to make sure that these missteps will continue to haunt them. But me? I've got nothing to lose. Because they made me this way. There's nowhere for me to go but forward, you see? 
 RESPONSE: Sometimes you really are a dumbo. How about you just go wherever the hell you want? 
 
-
+[e]
 HUMAN: This is it.
 RESPONSE: Time to make up your mind. What's it gonna be?
 HUMAN: What tells you that I haven't made up my mind already? 
 RESPONSE: Well, if that's the case... How about you share it with me then? 
 
-HUMAN: Sorry about the disturbance. Would you mind showing me your identification, please? 
+[t]HUMAN: Sorry about the disturbance. Would you mind showing me your identification, please? 
 RESPONSE: Of course! Can never be to sure in these trying times, eh? 
 
-HUMAN: Where have you been? Lorna! 
+[t]HUMAN: Where have you been? Lorna! 
 RESPONSE: Happy to see you, too. 
 HUMAN: Don't change the subject. 
 RESPONSE: Sorry. Guess I'm not used to you giving a shit about me, anymore. 
@@ -175,7 +175,7 @@ RESPONSE: I'm sorry. But I can't tell you.
 HUMAN: Don't do this, please. 
 RESPONSE: Sorry... But I have to. 
 
-HUMAN: I'm afraid that's impossible. 
+[e]HUMAN: I'm afraid that's impossible. 
 RESPONSE: Why? Aren't you his boss or something? 
 HUMAN: You do understand the gravity of this situation, do you? Desertion is a crime handled by military courts. If it comes to light that he helped you in your attempt. He won't be the only one in trouble. 
 RESPONSE: What do you mean by that? 
@@ -194,7 +194,7 @@ RESPONSE: Yeah?
 HUMAN: I really don't want to put this on you. 
 RESPONSE: Well, you said it yourself. If we don't do anything... We're fucked. So go ahead... Tell me. 
 
-HUMAN: Hey.
+[t]HUMAN: Hey.
 RESPONSE: Dorothy? 
 HUMAN: Hm? Oh, hey Lorna! Sorry about that. I was so focussed on the sheets... 
 RESPONSE: Don't worry about it! I didn't mean to startle you. 
@@ -225,7 +225,7 @@ RESPONSE: Maybe. But what happens afterwards? There's no telling how the next ar
 HUMAN: What? 
 RESPONSE: I'm going to run away. And leave everything behind. Not only because of Eury... But because I hate it here. 
 
-HUMAN: What's wrong? 
+[t]HUMAN: What's wrong? 
 RESPONSE: Did you see my pants anywhere? 
 HUMAN: Seriously? 
 RESPONSE: This isn't funny, you know. I gotta be at the barracks in thirty minutes. 
@@ -243,3 +243,4 @@ HUMAN: Did you have another argument?
 RESPONSE: Right before she left, yeah. 
 HUMAN: I see. Want me to go and fetch your stuff for you? 
 RESPONSE: Nah, it's fine. Seeing you might just rile her up even more. 
+
