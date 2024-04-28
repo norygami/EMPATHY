@@ -225,7 +225,7 @@ class Discollama:
         )
       else:
         template = f"system\n{self.bot_name}\nuser\n{content}\nassistant\n"
-      print(f'Formatted prompt: {template}')
+      print(f'Template: {template}')
 
       # Feed prompt & context to model
       async def request_with_timeout():
