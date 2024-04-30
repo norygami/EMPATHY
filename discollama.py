@@ -35,6 +35,13 @@ class Response:
     self.sb = io.StringIO()
     self.last_react_time = datetime.min
 
+  def _clean_response(self, text):
+    # Regular expression to find '.assistant' and remove everything after
+    pattern = r"[.?!]assistant.*"
+    cleaned_text = re.sub(pattern, '.', text, flags=re.DOTALL)
+    return cleaned_text
+
+
   async def write(self, s):
       # Define the unwanted token
       #print(f'PrepostProcess: {s}')
@@ -45,6 +52,8 @@ class Response:
       #  s = s.replace(token, "").rstrip()
       # Write the new content to the buffer
       #print(f'PostPostProcess: {s}')
+      print(f"PrepostProcess Response: {s}")
+      s = self._clean_response(s)
       self.sb.write(s)
       
       # Split Messages
@@ -169,7 +178,7 @@ class Discollama:
         return
         
     # Clean @mention
-    content = message.content.replace(f'<@{self.discord.user.id}>', '').strip() if self.discord.user.mentioned_in(message) else message.content
+    content = message.content.replace(f'<@{self.discord.user.id}>', f'{self.discord.user.id}>').strip() if self.discord.user.mentioned_in(message) else message.content
     if not content:
       content = 'Hi!' # Fallback
 
@@ -190,6 +199,7 @@ class Discollama:
         async for part in self.generate(content, context):
             # Check task status before cancellation
             logging.info(f"About to send response: {part['response'][:500]}-")
+            #print(f"Response Context: {part['context']}")
             await r.write(part['response'])
 
         await r.write('')
@@ -222,15 +232,16 @@ class Discollama:
             "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n"
             "{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
             "{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
+            "{{ .Response }}<|eot_id|>"
         )
       else:
         template = f"system\n{self.bot_name}\nuser\n{content}\nassistant\n"
-      print(f'Template: {template}')
-
+      #print(f'Template: {template}')
+      #print(f'Context: {context_ids}')
       # Feed prompt & context to model
       async def request_with_timeout():
           try:
-              response = await self.ollama.generate(model=self.model, prompt=content, template=template, system=self.bot_name, context=context_ids, keep_alive=-1, stream=False)
+              response = await self.ollama.generate(model=self.model, prompt=content, system=self.bot_name, context=context_ids, keep_alive=-1, stream=False)
               return response
           except asyncio.TimeoutError:
               logging.warning("Timeout")
