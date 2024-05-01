@@ -49,7 +49,7 @@ class Response:
       #unwanted_tokens = ["<|im_end|>", "<|im_start|>"]
       # Remove the unwanted token from 's' if it exists
       #for token in unwanted_tokens:
-      #  s = s.replace(token, "").rstrip()
+        #s = s.replace(token, "").rstrip()
       # Write the new content to the buffer
       #print(f'PostPostProcess: {s}')
       print(f"PrepostProcess Response: {s}")
@@ -184,7 +184,9 @@ class Discollama:
 
     # Check /[command] 
     if message.content.strip().lower() == '/forget':
-      await self.forget_conversation(message.author.id)
+      channel_id = message.channel.id if not isinstance(message.channel, discord.DMChannel) else None
+      user_id = message.author.id if isinstance(message.channel, discord.DMChannel) else None
+      await self.forget_conversation(channel_id=channel_id, user_id=user_id)
       await message.channel.send("\n**Here's to a new us! 🥂**")
       return
 
@@ -273,23 +275,25 @@ class Discollama:
       print(f"Loading context for key: {key}")
       message_id = self.redis.get(key)
       ctx = self.redis.get(f'discollama:message:{message_id}')
+      print(f'Context: {ctx}')
       return json.loads(ctx) if ctx else []
   
-  async def forget_conversation(self, user_id):
-      # Retrieve the set of all message IDs for the user
-      message_ids_set_key = f'discollama:{self.discord.user.id}:user_messages:{user_id}'
+  async def forget_conversation(self, channel_id=None, user_id=None):
+      # Determine if the conversation is a DM or belongs to a thread/channel
+      key_prefix = f'discollama:{self.discord.user.id}:dm:' if user_id else f'discollama:{self.discord.user.id}:channel:'
+      key = f"{key_prefix}{user_id or channel_id}"
+      message_ids_set_key = f'discollama:{self.discord.user.id}:user_messages:{user_id or channel_id}'
+      
+      # Retrieve all message IDs stored in Redis for the user or channel/thread
       message_ids = self.redis.smembers(message_ids_set_key)
 
-      # Delete each message context key
+      # Delete each message context key stored in Redis
       for msg_id in message_ids:
           self.redis.delete(f'discollama:message:{msg_id}')
 
-      # Delete the set itself
+      # Delete the set itself and the latest message key
       self.redis.delete(message_ids_set_key)
-
-      # Continue with deleting the latest message key as before
-      latest_message_key = f'discollama:{self.discord.user.id}:dm:{user_id}'
-      self.redis.delete(latest_message_key)
+      self.redis.delete(key)
   
   def run(self, token):
     try:
