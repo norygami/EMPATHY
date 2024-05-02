@@ -1695,6 +1695,4 @@ HUMAN: Fuck. I'd rather not run across her, right now.
 RESPONSE: Did you have another argument? 
 HUMAN: Right before she left, yeah. 
 RESPONSE: I see. Want me to go and fetch your stuff for you? 
-HUMAN: Nah, it's fine. Seeing you might just rile her up even more. 
-RESPONSE: 
 

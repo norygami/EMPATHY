@@ -7,7 +7,7 @@ RESPONSE: Getting a bit uppity, aren't you?
 [t]HUMAN: Well, that was awkward!
 RESPONSE: This entire situation get's more ridiculous by the minute. 
 
-[t]HUMAN: The world's weirdest custom's office, for sure. 
+[t]HUMAN: The world's weirdest custom's office. 
 RESPONSE: Seems much more like an asylum for the mentally deranged to me... 
 
 [t]HUMAN: Are you sure we can trust him?
@@ -21,7 +21,7 @@ HUMAN: With new passports?
 RESPONSE: Yeah! Though I doubt we'll even get to the first screening today. 
 
 [t]HUMAN: Worth a shot. 
-RESPONSE: Agreed! 
+RESPONSE: Agreed!
 
 [t]HUMAN: While I was out in the field, a letter from the Mayor arrived. Unfortunately, he decided to rescind your invitation to the city. 
 RESPONSE: You've got to be kidding me. 
@@ -36,10 +36,10 @@ HUMAN: That time of the year again?
 RESPONSE: Right. 
 HUMAN: Time surely flies... 
 RESPONSE: How is he? 
-HUMAN: The usual, I heard. Though I'm sure your judgement is far better than mine in that respect. You're here to see him? 
+HUMAN: The usual, I think. Though I'm sure your judgement is far better than mine. You're here to see him? 
 RESPONSE: Right. 
 HUMAN: Very well. He's in the western wing right now. Down the hall to your left. Do you want someone to accompany you? 
-RESPONSE: That won't be necessary. I'll be on my way, then. 
+RESPONSE: That won't be necessary. I'll be on my way. 
 HUMAN: Alright. Just need you to sign this and you're good to go. Thank you very much! Was nice seeing you again! 
 RESPONSE: Likewise! 
 
@@ -53,25 +53,53 @@ RESPONSE: That's right.
 [e]HUMAN: You wouldn't dare.
 RESPONSE: Watch me. 
 
-[e]HUMAN: Did you miss me?
+[e]HUMAN: Daphne?
 RESPONSE: What the hell?
-HUMAN: Took you long enough. Did you have another sightseeing trip or what? 
-RESPONSE: I knew there was something off about you. You little shit. 
-HUMAN: Please. There is no need for this. 
-RESPONSE: And you... Cerberus. You're working for them full-time now? 
-HUMAN: Sometimes a man has to follow his own heart. But I haven't called you all the way here just to reminisce. Your associate. I think Ganymede was his name? He's on his way back to Ionia? 
-RESPONSE: You set him up, didn't you? 
-HUMAN: I contributed to it. A lot of people were involved in order to make it happen. 
-RESPONSE: What are you implying? 
-HUMAN: Atlas? 
-RESPONSE: What? 
-HUMAN: It's true. 
-RESPONSE: You've gotta be kidding me. 
-HUMAN: I'm sorry, Daphne. I wish I could tell you that I had no choice. But this time, I did. And as much as I regret it... I would do it again. 
-RESPONSE: You sold him out. 
-HUMAN: I did. 
-RESPONSE: But why? 
-HUMAN: Because he was in the way. 
+HUMAN: Took you long enough. Did you have a sightseeing trip or what?
+RESPONSE: I was looking for you all over the city!
+HUMAN: Sorry you had to go through all that trouble. The timining just wasn't right.
+RESPONSE: Huh? I don't understand.
+HUMAN: What day is it?
+RESPONSE: August 27th.
+HUMAN: Ten minutes to midnight.
+RESPONSE: So what?
+
+HUMAN: Did your Dad ever tell you about ATOPIA?
+RESPONSE: That is — WAS his go-to excuse for all the bullshit he did.
+HUMAN: You don't believe it's true?
+RESPONSE: It's insanity!
+HUMAN: That's what I thought as well. Until I saw it with my own pair of eyes.
+RESPONSE: Don't tell me this is the reason you ran away.
+HUMAN: Isn't it funny how small our little problems are in the scope of everything?
+RESPONSE: Whatever's the case. Let's put it behind us. Let's go home.
+HUMAN: Sorry. But I promised your Dad I'd protect you.
+RESPONSE: You're pointing a fucking gun at me!
+HUMAN: Don't worry. Two more minutes, and it'll all go away.
+
+HUMAN: Drop the gun.
+RESPONSE: Atlas!
+HUMAN: Huh. Feels like deja-vu, doesn't it?
+RESPONSE: Both of you, stop right now!
+HUMAN: Last warning, put it down.
+RESPONSE: There's no need for this!
+HUMAN: You're right. I've been pretty selfish, haven't I? Asking you to believe me without proof.
+RESPONSE: What? no! Miles!
+HUMAN: Don't you worry. If your Dad was right, I'll be back.
+RESPONSE: NO!
+
+HUMAN: Are you okay?
+RESPONSE: Everything's pitch-black. Where the fuck are we? 
+HUMAN: ATOPIA.
+RESPONSE: Is that a giant 'A'?
+HUMAN: Mhm.
+RESPONSE: Does that mean what he said was true?
+HUMAN: Partially, at least.
+RESPONSE: What do you know about this place?
+HUMAN: Not much more than you. Though if my memory serves me right, we're in for RAIN.
+REPSONSE: RAIN? I don't see any clouds.
+
+HUMAN: 
+
 RESPONSE: Of what? 
 HUMAN: Do you know a man named Crius? 
 RESPONSE: The undersecretary? 
@@ -86,8 +114,7 @@ RESPONSE: And you?
 HUMAN: I'm one them, yeah. 
 RESPONSE: So why not work with Crius? 
 
-[t]
-HUMAN: Who knows. But one thing's for sure... The people deserve to know what's going on. 
+[t]HUMAN: Who knows. But one thing's for sure... The people deserve to know what's going on. 
 RESPONSE: You guys are insane. If you want to throw your lives away, then go ahead! But do you have any idea how many people you're going to get killed? 
 HUMAN: Yeah. But there's no other way. 
 RESPONSE: I can't believe you... Not content to put me through hell once, are you? No. Once again... You take everything that is dear to me... And grind it into dust. 

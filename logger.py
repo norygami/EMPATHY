@@ -4,24 +4,24 @@ import os
 
 
 class LogData:
-    def __init__(self, channel_type, user_channel_id, context_length, response_time, prompt_length=None, response_length=None):
+    def __init__(self, channel_type, user_channel_id, response_time, prompt_length=None, response_length=None, history_length=None):
         self.timestamp = datetime.now()
         self.channel_type = channel_type
         self.user_channel_id = user_channel_id
-        self.context_length = context_length
         self.response_time = response_time
         self.prompt_length = prompt_length
         self.response_length = response_length
+        self.history_length = history_length
     
     def to_dict(self):
         return {
             'timestamp': self.timestamp,
             'channel_type': self.channel_type,
             'user_channel_id': self.user_channel_id,
-            'context_length': self.context_length,
             'response_time': self.response_time,
             'prompt_length': self.prompt_length,
-            'response_length': self.response_length
+            'response_length': self.response_length,
+            'history_length': self.history_length
         }
 
 def log_performance(log_data: LogData):

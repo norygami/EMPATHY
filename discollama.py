@@ -44,15 +44,6 @@ class Response:
 
   async def write(self, s):
       # Define the unwanted token
-      #print(f'PrepostProcess: {s}')
-      #s = self._remove_unwanted_fragments(s)
-      #unwanted_tokens = ["<|im_end|>", "<|im_start|>"]
-      # Remove the unwanted token from 's' if it exists
-      #for token in unwanted_tokens:
-        #s = s.replace(token, "").rstrip()
-      # Write the new content to the buffer
-      #print(f'PostPostProcess: {s}')
-      print(f"PrepostProcess Response: {s}")
       s = self._clean_response(s)
       self.sb.write(s)
       
@@ -71,7 +62,7 @@ class Response:
             if i < len(chunks) - 1:
                 chunk += '...'  # Indicate continuation
             await self._send_or_edit(chunk)
-            self.r = None  # Reset self.r to ensure the next chunk is sent as a new message
+            self.r = None
 
       # Single message
       else:
@@ -81,14 +72,6 @@ class Response:
               # Reset the buffer after sending/editing
               self.sb.seek(0, io.SEEK_SET)
               self.sb.truncate()
-              
-  def _remove_unwanted_fragments(self, text):
-    pattern = r"(user|assistant).*?(?=\n+system|$)"
-
-    # Remove these patterns from the text
-    # flags=re.DOTALL is used to make the '.' special character match any character at all, including a newline
-    cleaned_text = re.sub(pattern, '', text, flags=re.DOTALL)
-    return cleaned_text.strip()
 
   async def _send_or_edit(self, value):
       if self.r:
@@ -122,6 +105,7 @@ class Discollama:
       logging.info(f" {self.bot_name} is ready and online!")
 
   async def on_message(self, message: discord.message):
+
     # Start timer
     start_time = perf_counter()  
 
@@ -129,10 +113,10 @@ class Discollama:
     if message.author.bot:
         return
     
-
-
     # Channel Type
     channel = message.channel
+    thread_created = False
+
     if not isinstance(message.channel, discord.DMChannel):
       # Define allowed channel types for processing
       allowed_channel_types = {discord.ChannelType.text, discord.ChannelType.public_thread}
@@ -152,8 +136,7 @@ class Discollama:
             dm_channel = await message.author.create_dm()
             await dm_channel.send("Please stay in your lane! 😘")
             return
-        print(f'Thread Creator id: {thread_creator_id}\n'
-              f'Message Author id: {message.author.id}')
+        
       # Text
       elif message.channel.type == discord.ChannelType.text:
         if not self.discord.user.mentioned_in(message):
@@ -167,6 +150,7 @@ class Discollama:
            message=message, 
            auto_archive_duration=10080)
         self.redis.set(f"thread:{channel.id}:creator", message.author.id)
+        thread_created = True
         print(f"thread:{channel.id}:creator\n"
               f'author id: {message.author.id}')
 
@@ -174,13 +158,13 @@ class Discollama:
     maintenance = False
     whitelist = [406159439457157130, 1232999654933925900, 132080494387920896]
     if maintenance and message.author.id not in whitelist:
-        await channel.send("\n**We are switching to Llama3! Please stop by later~**")
+        await channel.send("\n**Gated access! Please stop by later~**")
         return
         
     # Clean @mention
-    content = message.content.replace(f'<@{self.discord.user.id}>', f'{self.discord.user.id}>').strip() if self.discord.user.mentioned_in(message) else message.content
-    if not content:
-      content = 'Hi!' # Fallback
+    message.content = message.content.replace(f'<@{self.discord.user.id}>', '').strip() if self.discord.user.mentioned_in(message) else message.content
+    if not message.content:
+      message.content = 'Hi!' # Fallback
 
     # Check /[command] 
     if message.content.strip().lower() == '/forget':
@@ -190,20 +174,14 @@ class Discollama:
       await message.channel.send("\n**Here's to a new us! 🥂**")
       return
 
-    
-    context = await self.load(channel_id=channel.id if not isinstance(message.channel, discord.DMChannel) else None, 
-                              user_id=message.author.id if isinstance(message.channel, discord.DMChannel) else None)
-
+    # Instantiate Response
     r = Response(message, channel, self.redis, self.discord.user.id, self.bot_name)
     
+    # Call Generate
     async with channel.typing():
         # Generate and send response
-        async for part in self.generate(content, context):
-            # Check task status before cancellation
-            logging.info(f"About to send response: {part['response'][:500]}-")
-            #print(f"Response Context: {part['context']}")
-            await r.write(part['response'])
-
+        response_content, history_length = await self.generate(message, channel.id if thread_created else message.channel.id)
+        await r.write(response_content)
         await r.write('')
 
         # Calculate response time
@@ -214,70 +192,87 @@ class Discollama:
         log_data = LogData(
             channel_type='DM' if isinstance(message.channel, discord.DMChannel) else 'Public',
             user_channel_id=message.author.id if isinstance(message.channel, discord.DMChannel) else message.channel.id,
-            context_length=len(context),
             response_time=response_time,
-            prompt_length=len(content),
-            response_length=len(part['response'])
+            response_length=len(response_content),
+            history_length=history_length,
         )
         log_performance(log_data)
 
-        # Save redis keys
-        await self.save(r.channel.id, message.id, part['context'], message.author.id if isinstance(message.channel, discord.DMChannel) else None)
 
+  # Generate Response
+  async def generate(self, message: discord.Message, channel_id):
+      # Prepare message history for chat
+      history = await self.load_message_history(message.channel.id)
 
-  async def generate(self, content, context_ids):
+      # System message
+      system_message = self.prepare_message('system', f'{self.bot_name}')
+
+      # Check if the last system message differs from the current one
+      if not history or (history[-1]['role'] == 'system' and history[-1]['content'] != system_message['content']):
+          history.append(system_message)
       
-      # Format prompt
-      llama = True
-      if llama is True:
-        template = (
-            "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n"
-            "{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
-            "{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
-            "{{ .Response }}<|eot_id|>"
-        )
-      else:
-        template = f"system\n{self.bot_name}\nuser\n{content}\nassistant\n"
-      #print(f'Template: {template}')
-      #print(f'Context: {context_ids}')
-      # Feed prompt & context to model
+      # User message
+      user_content = message.content.strip() if message.content.strip() else "Hello there!"
+      user_message = self.prepare_message('user', user_content)
+      history.append(user_message)
+
+      # Call chat API
       async def request_with_timeout():
           try:
-              response = await self.ollama.generate(model=self.model, prompt=content, system=self.bot_name, context=context_ids, keep_alive=-1, stream=False)
+              response = await self.ollama.chat(
+                  model=self.model,
+                  messages=history,
+                  stream=False
+              )
               return response
           except asyncio.TimeoutError:
-              logging.warning("Timeout")
-              return {"response": "Request timed out.", "context": []}
+              logging.warning("Timeout during chat request")
+              return {'content': "The response took too long and timed out.", 'role': 'assistant'}
           except Exception as e:
-              logging.exception("Exception in generate:", exc_info=e)
-              return {"response": "Error generating response.", "context": []}
-      # Timeout
+              logging.exception("Exception during chat request:", exc_info=e)
+              return {'content': "An error occurred while generating a response.", 'role': 'assistant'}
+      
       response = await asyncio.wait_for(request_with_timeout(), timeout=90.0)
-      yield response
 
-  async def save(self, channel_id, message_id, ctx: list[int], user_id=None):
-      key_prefix = f'discollama:{self.discord.user.id}:dm:' if user_id else f'discollama:{self.discord.user.id}:channel:'
-      key = f"{key_prefix}{user_id or channel_id}"
-      self.redis.set(key, json.dumps(message_id), ex=60 * 60 * 24 * 7)
-      self.redis.set(f'discollama:message:{message_id}', json.dumps(ctx), ex=60 * 60 * 24 * 7)
+        # Check if content is present and non-empty
+      if 'message' in response and 'content' in response['message'] and response['message']['content']:
+          history.append({
+              'role': 'assistant',
+              'content': response['message']['content']
+          })
+          logging.info("Received valid response from API.")
+      else:
+          # Handle cases where the response is lacking content
+          logging.error("Expected 'content' not found in response. Full response: {}".format(response))
+          response['message'] = {'content': "Sorry, I couldn't process that request or there was no input.", 'role': 'assistant'}
+          history.append(response['message'])
 
-      # Track message IDs in a set for DM conversations
-      if user_id:
-          messages_set_key = f'discollama:{self.discord.user.id}:user_messages:{user_id}'
-          self.redis.sadd(messages_set_key, message_id)
-          # Set auto-expiration
-          self.redis.expire(messages_set_key, 60 * 60 * 24 * 7)
+      # Always save the updated message history to the database
+      await self.save_message_history(channel_id, history)
+      print(f'History after API response: {history}')
 
-  async def load(self, channel_id=None, user_id=None) -> list[int]:
-      message_id = None
-      key_prefix = f'discollama:{self.discord.user.id}:dm:' if user_id else f'discollama:{self.discord.user.id}:channel:'
-      key = f"{key_prefix}{user_id or channel_id}"
-      print(f"Loading context for key: {key}")
-      message_id = self.redis.get(key)
-      ctx = self.redis.get(f'discollama:message:{message_id}')
-      print(f'Context: {ctx}')
-      return json.loads(ctx) if ctx else []
+      # Return the last message content, typically the assistant's response
+      return history[-1]['content'], len(history)
   
+  
+  def prepare_message(self, role, content):
+      return {'role': role, 'content': content}
+
+  def log_history_action(self, action, channel_id, data):
+    logging.info(f"{action} history for channel {channel_id}: {data}")
+  
+  async def load_message_history(self, channel_id) -> list:
+      key = f"history:{channel_id}"
+      history_json = self.redis.get(key)
+      self.log_history_action("Loaded", channel_id, history_json)
+      return json.loads(history_json) if history_json else []
+
+  async def save_message_history(self, channel_id, history):
+      key = f"history:{channel_id}"
+      history_json = json.dumps(history)
+      self.redis.set(key, history_json, ex=60 * 60 * 24 * 7)  # 7 days expiration for simplicity
+      logging.info(f"Saved history for channel {channel_id}: {history_json}")
+
   async def forget_conversation(self, channel_id=None, user_id=None):
       # Determine if the conversation is a DM or belongs to a thread/channel
       key_prefix = f'discollama:{self.discord.user.id}:dm:' if user_id else f'discollama:{self.discord.user.id}:channel:'
@@ -295,6 +290,8 @@ class Discollama:
       self.redis.delete(message_ids_set_key)
       self.redis.delete(key)
   
+  
+  # Setup
   def run(self, token):
     try:
       self.discord.run(token)
