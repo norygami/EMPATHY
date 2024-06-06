@@ -16,7 +16,7 @@ class LogData:
     def to_dict(self):
         return {
             'timestamp': self.timestamp,
-            'channel_type': self.channel_type,
+            'channel_type': self.channel_type, 
             'user_channel_id': self.user_channel_id,
             'response_time': self.response_time,
             'prompt_length': self.prompt_length,
