@@ -3,9 +3,7 @@
 `EMPATHY` is a prototypical extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt [Ollama](https://github.com/jmorganca/ollama) models via Discord bots.
 
 ## Primary Additions
-![env_250](resources/1Bed.png)
-
-`EMPATHY` adds following features:
+`EMPATHY` adds following:
 
 * **Multi-Bot Support:** Configure and run multiple Discord bots simultaneously from a single instance using a `bot_config.json` file. Each bot can have its own Ollama model, name, and activity status.
 * **Intelligent Thread Management:**
@@ -25,6 +23,7 @@
     * Integrates detailed logging for bot activities, including performance metrics like response time, response length, and history length.
     * Includes a "maintenance mode" with a user whitelist for controlled access during updates or debugging.
 
+![env_250](resources/1Bed.png)
 ## Dependencies
 -   Docker & Compose
 
