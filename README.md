@@ -1,39 +1,78 @@
 # EMPATHY
 
-`EMPATHY` integrates locally hosted Ollama models, fine-tuned on a custom TRACHI dataset. 
-It's Discord integration is built on top of [discollama](https://github.com/mxyng/discollama), a Discord bot powered by a local large language model backed by [Ollama](https://github.com/jmorganca/ollama).
+`EMPATHY` is an extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt local LLMs mounted on [Ollama](https://github.com/jmorganca/ollama) through Discord bots. Primary additions include
 
-## Run `discollama.py`
+## Primary Additions
 
-```
-DISCORD_TOKEN=xxxxx docker compose up
-```
+`EMPATHY` significantly enhances the original `discollama` with the following key features:
 
-> Note: You must setup a [Discord Bot](https://discord.com/developers/applications) and set environment variable `DISCORD_TOKEN` before `discollama.py` can access Discord.
+* **Multi-Bot Support:** Configure and run multiple Discord bots simultaneously from a single instance using a `bot_config.json` file. Each bot can have its own Ollama model, name, and activity status.
+* **Intelligent Thread Management:**
+    * Automatically creates dedicated public threads for new conversations when the bot is mentioned in a text channel.
+    * Manages thread ownership and prevents "trespassers" by allowing only the original thread creator to interact within their dedicated thread.
+* **Enhanced Conversation Memory and Control:**
+    * Maintains a more robust conversation history by storing full message roles and content in Redis.
+    * Introduces a `/forget` command, allowing users to clear their conversation history with the bot at any time.
+    * Includes a "system message" that helps guide the LLM's personality and behavior, dynamically updated in conversation history.
+* **Improved Response Handling:**
+    * Cleans and refines LLM output by removing unwanted tokens (e.g., ".assistant").
+    * Intelligently splits long responses to comply with Discord's message length limits, indicating continuation with "...".
+    * Edits previous bot messages instead of sending new ones where appropriate, providing a smoother and less cluttered chat experience.
+* **Robust LLM Interaction:**
+    * Utilizes Ollama's `chat` API for more natural, multi-turn conversational interactions.
+    * Implements comprehensive timeout and error handling for Ollama API requests, ensuring bot resilience.
+* **Performance Monitoring & Debugging:**
+    * Integrates detailed logging for bot activities, including performance metrics like response time, response length, and history length.
+    * Includes a "maintenance mode" with a user whitelist for controlled access during updates or debugging.
 
-`discollama.py` requires an [Ollama](https://github.com/jmorganca/ollama) server. Follow the steps in [jmorganca/ollama](https://github.com/jmorganca/ollama) repository to setup Ollama.
+## Dependencies
 
-By default, it uses `127.0.0.1:11434` which can be overwritten with `OLLAMA_HOST`.
+-   Docker and Docker Compose
 
-> Note: Deploying this on Linux requires updating network configurations and `OLLAMA_HOST`.
+## Setup and Running EMPATHY
 
-## Customize `discollama.py`
+### 1. Configuration File (`bot_config.json`)
 
-The default LLM is `mike/discollama`. A custom personality can be added by changing the `SYSTEM` instruction in the Modelfile and running `ollama create`:
+`EMPATHY` uses a `bot_config.json` file to manage configurations for one or more bots. Create this file in the root directory of your project. Here's an example structure:
 
-```
-ollama create mymodel -f Modelfile
-```
-
-This can be changed in `compose.yaml`:
-
-```
-environment:
-  - OLLAMA_MODEL=mymodel
-```
-
-See [jmorganca/ollama](https://github.com/jmorganca/ollama/blob/main/docs/modelfile.md) for more details.
-
-## Activating the Bot
-
-Discord users can interact with the bot by mentioning it in a message to start a new conversation or in a reply to a previous response to continue an ongoing conversation.
+```json
+{
+  "bots": [
+    {
+      "name": "MyEmpathyBot",
+      "discord_bot_token": "DISCORD_TOKEN_ENV_VAR",
+      "ollama": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 11434
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+      },
+      "model": "llama2",
+      "activity": {
+        "name": "with feelings",
+        "state": "Empathizing with users"
+      }
+    },
+    {
+      "name": "AnotherBot",
+      "discord_bot_token": "ANOTHER_DISCORD_TOKEN_ENV_VAR",
+      "ollama": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 11434
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+      },
+      "model": "dolphin-mistral",
+      "activity": {
+        "name": "deep thoughts",
+        "state": "Pondering existence"
+      }
+    }
+  ]
+}
