@@ -1,6 +1,6 @@
 # EMPATHY
 
-`EMPATHY` is an extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt local LLMs mounted on [Ollama](https://github.com/jmorganca/ollama) through Discord bots. Primary additions include
+`EMPATHY` is an extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt [Ollama](https://github.com/jmorganca/ollama) models via Discord bots. Primary additions include
 
 ## Primary Additions
 
