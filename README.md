@@ -1,7 +1,8 @@
 # EMPATHY
 
-`EMPATHY` is a prototypical extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt [Ollama](https://github.com/jmorganca/ollama) models via Discord bots. Primary additions include
+`EMPATHY` is a prototypical extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt [Ollama](https://github.com/jmorganca/ollama) LLMs through Discord bots. The interface is fully compatible with TRACHI's models – e.g. [dolphin-mistral-TRACHI-7b](norygano/dolphin-mistral-TRACHI-7b-GGUF) and others.
 
+![env_250](resources/Fab4.png)
 ## Primary Additions
 
 `EMPATHY` adds following features:
