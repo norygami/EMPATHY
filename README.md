@@ -23,7 +23,6 @@
     * Integrates detailed logging for bot activities, including performance metrics like response time, response length, and history length.
     * Includes a "maintenance mode" with a user whitelist for controlled access during updates or debugging.
 
-![env_250](resources/1Bed.png)
 ## Dependencies
 -   Docker & Compose
 
