@@ -3,8 +3,9 @@
 `EMPATHY` is a prototypical extension of [discollama](https://github.com/mxyng/discollama), a python script to prompt [Ollama](https://github.com/jmorganca/ollama) LLMs through Discord bots. The interface is fully compatible with TRACHI's models – e.g. [dolphin-mistral-TRACHI-7b](norygano/dolphin-mistral-TRACHI-7b-GGUF) and others.
 
 ![env_250](resources/Fab4.png)
+
 ## Primary Additions
-`EMPATHY` adds following:
+`EMPATHY` adds the following:
 
 * **Multi-Bot Support:** Configure and run multiple Discord bots simultaneously from a single instance using a `bot_config.json` file. Each bot can have its own Ollama model, name, and activity status.
 * **Intelligent Thread Management:**
