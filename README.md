@@ -74,3 +74,61 @@
     }
   ]
 }
+
+````
+
+  * `name`: The display name of your bot.
+  * `discord_bot_token`: The name of the environment variable that holds your Discord bot token (e.g., `DISCORD_TOKEN`).
+  * `ollama`: Configuration for the Ollama server connection.
+  * `redis`: Configuration for the Redis server connection (used for conversation history).
+  * `model`: The Ollama model to use for this specific bot instance.
+  * `activity`: (Optional) Custom activity status for your bot.
+
+### 2\. Discord Bot Setup
+
+You must set up a [Discord Bot](https://discord.com/developers/applications) for each bot defined in your `bot_config.json` and obtain their respective tokens. These tokens should be set as environment variables as specified in your `bot_config.json` (e.g., `DISCORD_TOKEN=xxxxx`, `ANOTHER_DISCORD_TOKEN_ENV_VAR=yyyyy`).
+
+### 3\. Ollama Server Setup
+
+`EMPATHY` requires an [Ollama](https://github.com/ollama/ollama) server. Follow the steps in the [ollama/ollama](https://github.com/ollama/ollama) repository to set up Ollama.
+
+By default, the `bot_config.json` uses `127.0.0.1:11434` for Ollama, which can be overridden in the configuration file if your Ollama instance is on a different host or port.
+
+> **Note:** Deploying this on Linux might require updating network configurations and your Ollama host settings within `bot_config.json`.
+
+### 4\. Running EMPATHY
+
+To run `EMPATHY` using Docker Compose, ensure your environment variables (like `DISCORD_TOKEN`) are set, then execute:
+
+```bash
+DISCORD_TOKEN=your_token_here ANOTHER_DISCORD_TOKEN_ENV_VAR=another_token_here docker compose up
+```
+
+Replace `your_token_here` and `another_token_here` with your actual Discord bot tokens.
+
+## Customize EMPATHY
+
+### Ollama Models
+
+The `model` parameter in `bot_config.json` specifies which Ollama model each bot instance will use. For example, `model: "llama2"`.
+
+### Custom Personalities
+
+To add a custom personality, you can change the `SYSTEM` instruction in an Ollama `Modelfile` and run `ollama create`:
+
+```bash
+ollama create mymodel -f Modelfile
+```
+
+Then, update the `model` field in your `bot_config.json` for the relevant bot to `mymodel`.
+
+See [ollama/ollama](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) for more details on `Modelfile` customization.
+
+## Activating the Bot
+
+Discord users can interact with the bot in a few ways:
+
+  * **Starting a New Conversation:** Mention the bot in a public text channel (e.g., `@MyEmpathyBot How are you?`). This will automatically create a new thread for the conversation.
+  * **Continuing an Ongoing Conversation:** Reply directly to a previous bot message within a thread.
+  * **Direct Message (DM):** Send a direct message to the bot.
+  * **Forgetting Conversation History:** Type `/forget` in a conversation with the bot (either in a thread or DM) to clear the bot's memory of your previous interactions.
