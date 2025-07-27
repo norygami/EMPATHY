@@ -181,3 +181,7 @@ discollama.code-workspace
 /Phi-3-TRACHI-mini-4k-instruct
 /dolphin-llama-3-TRACHI-8b
 /dolphin-mistral-TRACHI-7b-v02
+train.ipynb
+dataset.ipynb
+AUTONOMY.csv
+/datasets

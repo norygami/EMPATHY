@@ -36,40 +36,36 @@ class Response:
     self.last_react_time = datetime.min
 
   def _clean_response(self, text):
-    # Regular expression to find '.assistant' and remove everything after
     pattern = r"[.?!]assistant.*"
     cleaned_text = re.sub(pattern, '.', text, flags=re.DOTALL)
     return cleaned_text
 
 
   async def write(self, s):
-      # Define the unwanted token
       s = self._clean_response(s)
       self.sb.write(s)
       
       # Split Messages
       if self.sb.seek(0, io.SEEK_END) > 2000:
-          # Get the current buffer's content and reset it for the next message part
           value = self.sb.getvalue().strip()
           self.sb.seek(0, io.SEEK_SET)
           self.sb.truncate()
 
           # Split value into chunks that fit within Discord's limit
-          chunk_size = 1900  # Use a slightly smaller size to account for 'end'
+          chunk_size = 1900
           chunks = [value[i:i+chunk_size] for i in range(0, len(value), chunk_size)]
 
           for i, chunk in enumerate(chunks):
             if i < len(chunks) - 1:
-                chunk += '...'  # Indicate continuation
+                chunk += '...'
             await self._send_or_edit(chunk)
             self.r = None
 
       # Single message
       else:
           value = self.sb.getvalue().strip()
-          if value:  # There's something to send
+          if value:
               await self._send_or_edit(value)
-              # Reset the buffer after sending/editing
               self.sb.seek(0, io.SEEK_SET)
               self.sb.truncate()
 
@@ -90,7 +86,6 @@ class Discollama:
     self.bot_name = bot_name
     self.last_react_time = datetime.min
 
-    # register event handlers
     self.discord.event(self.on_ready)
     self.discord.event(self.on_message)
 
@@ -106,10 +101,7 @@ class Discollama:
 
   async def on_message(self, message: discord.message):
 
-    # Start timer
     start_time = perf_counter()  
-
-    # Filter bot messages
     if message.author.bot:
         return
     
@@ -118,10 +110,8 @@ class Discollama:
     thread_created = False
 
     if not isinstance(message.channel, discord.DMChannel):
-      # Define allowed channel types for processing
+      # Limit to text and thread channels
       allowed_channel_types = {discord.ChannelType.text, discord.ChannelType.public_thread}
-
-      # Check if the channel type is allowed
       if message.channel.type not in allowed_channel_types:
           return
       
@@ -134,7 +124,7 @@ class Discollama:
         if thread_creator_id and message.author.id != int(thread_creator_id):
             await message.delete()
             dm_channel = await message.author.create_dm()
-            await dm_channel.send("Please stay in your lane! 😘")
+            await dm_channel.send("Please stay in your lane!")
             return
         
       # Text
@@ -164,7 +154,7 @@ class Discollama:
     # Clean @mention
     message.content = message.content.replace(f'<@{self.discord.user.id}>', '').strip() if self.discord.user.mentioned_in(message) else message.content
     if not message.content:
-      message.content = 'Hi!' # Fallback
+      message.content = 'Hi!'
 
     # Check /[command] 
     if message.content.strip().lower() == '/forget':
@@ -201,7 +191,7 @@ class Discollama:
 
   # Generate Response
   async def generate(self, message: discord.Message, channel_id):
-      # Prepare message history for chat
+      # Prepare message history
       history = await self.load_message_history(message.channel.id)
 
       # System message
@@ -234,7 +224,6 @@ class Discollama:
       
       response = await asyncio.wait_for(request_with_timeout(), timeout=90.0)
 
-        # Check if content is present and non-empty
       if 'message' in response and 'content' in response['message'] and response['message']['content']:
           history.append({
               'role': 'assistant',
@@ -242,7 +231,6 @@ class Discollama:
           })
           logging.info("Received valid response from API.")
       else:
-          # Handle cases where the response is lacking content
           logging.error("Expected 'content' not found in response. Full response: {}".format(response))
           response['message'] = {'content': "Sorry, I couldn't process that request or there was no input.", 'role': 'assistant'}
           history.append(response['message'])
