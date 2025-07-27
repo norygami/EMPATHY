@@ -4,8 +4,7 @@
 
 ![env_250](resources/Fab4.png)
 ## Primary Additions
-
-`EMPATHY` adds following features:
+`EMPATHY` adds following:
 
 * **Multi-Bot Support:** Configure and run multiple Discord bots simultaneously from a single instance using a `bot_config.json` file. Each bot can have its own Ollama model, name, and activity status.
 * **Intelligent Thread Management:**
